@@ -15,6 +15,17 @@
             "type": "integer"
           },
           {
+            "name": "Badesee",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Baggersee",
+                "Auwaldsee",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }

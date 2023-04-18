@@ -16,6 +16,18 @@
             "title": "Jahr"
           },
           {
+            "name": "Badesee",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Baggersee",
+                "Auwaldsee",
+                ""
+              ]
+            },
+            "title": "Badesee"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"
