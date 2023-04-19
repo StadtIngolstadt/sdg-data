@@ -7,13 +7,24 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "mac-roman",
       "schema": {
         "fields": [
           {
             "name": "Year",
             "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "Pflegeplatzart",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Langzeitpflegeplätze",
+                ""
+              ]
+            },
+            "title": "Pflegeplatzart"
           },
           {
             "name": "Value",

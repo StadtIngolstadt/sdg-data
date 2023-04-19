@@ -454,13 +454,24 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "mac-roman",
       "schema": {
         "fields": [
           {
             "name": "Year",
             "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "Pflegeplatzart",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Langzeitpflegeplätze",
+                ""
+              ]
+            },
+            "title": "Pflegeplatzart"
           },
           {
             "name": "Value",
@@ -1687,6 +1698,21 @@
             "title": "Jahr"
           },
           {
+            "name": "Präventionsart",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "universelle Prävention",
+                "selektive Prävention",
+                "indizierte Prävention",
+                "Verhältnisprävention",
+                "Gesamt",
+                ""
+              ]
+            },
+            "title": "Präventionsart"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"
@@ -2084,7 +2110,7 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
