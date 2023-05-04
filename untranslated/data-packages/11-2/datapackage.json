@@ -15,6 +15,18 @@
             "type": "integer"
           },
           {
+            "name": "Maßnahme Barrierefreiheit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Kassler Sonderboard",
+                "Vorlesetaster für Blinde",
+                "Taktikeles Leitsystem",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }
