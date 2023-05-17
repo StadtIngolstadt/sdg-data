@@ -16,8 +16,21 @@
             "title": "Jahr"
           },
           {
+            "name": "Category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "gerettet in t",
+                "weggeworfen in t",
+                "anteilig in %",
+                ""
+              ]
+            },
+            "title": "Category"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "string",
             "title": "Value"
           }
         ]
