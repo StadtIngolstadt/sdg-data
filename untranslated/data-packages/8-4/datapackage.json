@@ -15,6 +15,18 @@
             "type": "integer"
           },
           {
+            "name": "Einrichtung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Gesamt",
+                "THI",
+                "KU",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }

@@ -16,6 +16,19 @@
             "title": "Jahr"
           },
           {
+            "name": "Einrichtung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Gesamt",
+                "THI",
+                "KU",
+                ""
+              ]
+            },
+            "title": "Einrichtung"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"
