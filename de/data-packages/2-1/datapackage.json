@@ -20,8 +20,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "gerettet in t",
                 "weggeworfen in t",
+                "gerettet in t",
                 "anteilig in %",
                 ""
               ]
@@ -30,7 +30,7 @@
           },
           {
             "name": "Value",
-            "type": "string",
+            "type": "number",
             "title": "Value"
           }
         ]
