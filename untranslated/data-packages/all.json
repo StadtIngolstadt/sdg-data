@@ -616,7 +616,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "iso8859-9",
       "schema": {
         "fields": [
           {
@@ -624,10 +624,11 @@
             "type": "integer"
           },
           {
-            "name": "Maßnahme Barrierefreiheit",
+            "name": "Haltestellen",
             "type": "string",
             "constraints": {
               "enum": [
+                "Gesamt",
                 "Kassler Sonderboard",
                 "Vorlesetaster für Blinde",
                 "Taktikeles Leitsystem",
