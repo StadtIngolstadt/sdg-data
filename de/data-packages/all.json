@@ -1159,7 +1159,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "iso8859-9",
       "schema": {
         "fields": [
           {
@@ -1168,21 +1168,22 @@
             "title": "Jahr"
           },
           {
-            "name": "Units",
+            "name": "kWp",
             "type": "string",
             "constraints": {
               "enum": [
-                "Zubau in kWp seit 1993",
-                "Zubau in kWp",
-                "kWp Gesamt",
+                "Zubau 1993 bis 2018",
+                "Zubau in kWp ab 2019",
+                "Gesamtleistung Ingolstadt",
+                "Gesamtleistung städtische Anlagen",
                 ""
               ]
             },
-            "title": "Units"
+            "title": "kWp"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
