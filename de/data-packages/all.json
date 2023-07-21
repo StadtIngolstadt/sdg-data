@@ -1173,7 +1173,7 @@
             "constraints": {
               "enum": [
                 "Zubau 1993 bis 2018",
-                "Zubau in kWp ab 2019",
+                "Zubau ab 2019",
                 "Gesamtleistung Ingolstadt",
                 "Gesamtleistung städtische Anlagen",
                 ""
