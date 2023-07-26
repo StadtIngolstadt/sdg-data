@@ -15,6 +15,17 @@
             "type": "integer"
           },
           {
+            "name": "Weiterbildungsart",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Bildungsprogramm",
+                "E-Learning",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }

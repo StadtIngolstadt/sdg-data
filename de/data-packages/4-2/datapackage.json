@@ -16,6 +16,18 @@
             "title": "Jahr"
           },
           {
+            "name": "Weiterbildungsart",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Bildungsprogramm",
+                "E-Learning",
+                ""
+              ]
+            },
+            "title": "Weiterbildungsart"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"
