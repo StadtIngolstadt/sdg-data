@@ -1,9 +1,64 @@
 Year,kWp,Value
-2018,Zubau 1993 bis 2018,47300.0
-2019,Zubau ab 2019,3044.0
-2020,Zubau ab 2019,3625.0
-2021,Zubau ab 2019,4433.0
-2022,Zubau ab 2019,4812.0
-2023,Zubau ab 2019,5915.0
-2023,Gesamtleistung Ingolstadt,69128.0
+1993,Zubau,11.0
+1993,Gesamtleistung Ingolstadt,11.0
+1994,Zubau,0.0
+1994,Gesamtleistung Ingolstadt,11.0
+1995,Zubau,0.0
+1995,Gesamtleistung Ingolstadt,11.0
+1996,Zubau,8.0
+1996,Gesamtleistung Ingolstadt,19.0
+1997,Zubau,31.0
+1997,Gesamtleistung Ingolstadt,50.0
+1998,Zubau,11.0
+1998,Gesamtleistung Ingolstadt,61.0
+1999,Zubau,38.0
+1999,Gesamtleistung Ingolstadt,99.0
+2000,Zubau,40.0
+2000,Gesamtleistung Ingolstadt,139.0
+2001,Zubau,136.0
+2001,Gesamtleistung Ingolstadt,275.0
+2002,Zubau,251.0
+2002,Gesamtleistung Ingolstadt,426.0
+2003,Zubau,195.0
+2003,Gesamtleistung Ingolstadt,621.0
+2004,Zubau,1004.0
+2004,Gesamtleistung Ingolstadt,1625.0
+2005,Zubau,1323.0
+2005,Gesamtleistung Ingolstadt,2948.0
+2006,Zubau,1078.0
+2006,Gesamtleistung Ingolstadt,4026.0
+2007,Zubau,1856.0
+2007,Gesamtleistung Ingolstadt,5882.0
+2008,Zubau,2437.0
+2008,Gesamtleistung Ingolstadt,8319.0
+2009,Zubau,8364.0
+2009,Gesamtleistung Ingolstadt,16683.0
+2010,Zubau,6719.0
+2010,Gesamtleistung Ingolstadt,23402.0
+2011,Zubau,8958.0
+2011,Gesamtleistung Ingolstadt,32360.0
+2012,Zubau,3940.0
+2012,Gesamtleistung Ingolstadt,36300.0
+2013,Zubau,2146.0
+2013,Gesamtleistung Ingolstadt,38446.0
+2014,Zubau,824.0
+2014,Gesamtleistung Ingolstadt,39270.0
+2015,Zubau,974.0
+2015,Gesamtleistung Ingolstadt,40244.0
+2016,Zubau,851.0
+2016,Gesamtleistung Ingolstadt,41095.0
+2017,Zubau,4706.0
+2017,Gesamtleistung Ingolstadt,45801.0
+2018,Zubau,1499.0
+2018,Gesamtleistung Ingolstadt,47300.0
+2019,Zubau,3044.0
+2019,Gesamtleistung Ingolstadt,50344.0
+2020,Zubau,3632.0
+2020,Gesamtleistung Ingolstadt,53976.0
+2021,Zubau,4432.0
+2021,Gesamtleistung Ingolstadt,58408.0
+2022,Zubau,4976.0
+2022,Gesamtleistung Ingolstadt,63384.0
+2023,Zubau,10939.0
+2023,Gesamtleistung Ingolstadt,74323.0
 2023,Gesamtleistung städtische Anlagen,874.6

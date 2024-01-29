@@ -19,8 +19,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Zubau 1993 bis 2018",
-                "Zubau ab 2019",
+                "Zubau",
                 "Gesamtleistung Ingolstadt",
                 "Gesamtleistung städtische Anlagen",
                 ""
