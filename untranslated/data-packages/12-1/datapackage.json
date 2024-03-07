@@ -15,6 +15,28 @@
             "type": "integer"
           },
           {
+            "name": "Abfallart",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Restmüll",
+                "Biomüll",
+                "Papier",
+                "Sperrmüll",
+                "Altholz",
+                "Metallschrott",
+                "Elektrogeräte",
+                "Textilien",
+                "Grüngut",
+                "Bauschutt",
+                "gelber Sack",
+                "Flaschenglas",
+                "gesamt",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }
