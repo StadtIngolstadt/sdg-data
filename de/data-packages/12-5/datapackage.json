@@ -16,8 +16,20 @@
             "title": "Jahr"
           },
           {
+            "name": "Verwertungsquoten Deutschland",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Quotenvorgabe in %",
+                "Erreichte Recyclingquote in %",
+                ""
+              ]
+            },
+            "title": "Verwertungsquoten Deutschland"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
