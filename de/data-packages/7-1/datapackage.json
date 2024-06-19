@@ -16,21 +16,26 @@
             "title": "Jahr"
           },
           {
-            "name": "Units",
+            "name": "Anlagenart",
             "type": "string",
             "constraints": {
               "enum": [
-                "Watt",
-                "EW",
-                "W/EW",
+                "Biomasse in Watt",
+                "Biomasse in Watt/EW",
+                "Wasserkraft in Watt",
+                "Wasserkraft in Watt/EW",
+                "Photovoltaik in Watt",
+                "Photovoltaik in Watt/EW",
+                "Gesamt in Watt",
+                "Gesamt in Watt/EW",
                 ""
               ]
             },
-            "title": "Units"
+            "title": "Anlagenart"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
