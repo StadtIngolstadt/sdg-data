@@ -16,8 +16,30 @@
             "title": "Jahr"
           },
           {
+            "name": "Offene Arbeits- oder Berufsausbildungsstellen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Offene Arbeitsstellen Arzt- und Praxishilfe",
+                "Offene Arbeitsstellen Medizin. Laboratorium",
+                "Offene Arbeitsstellen Gesund. Krankenpfl. Rettungsd. Geburtsh.",
+                "Offene Arbeitsstellen Human- und Zahnmedizin",
+                "Offene Arbeitsstellen Tiermedizin und -heilkunde",
+                "Offene Arbeitsstellen Psychologie u. nichtärztl. -therapie",
+                "Offene Arbeitsstellen nichtärztl. Therapie und Heilkunde",
+                "Offene Arbeitsstellen Pharmazie",
+                "Offene Arbeitsstellen Gesamt",
+                "Offene Berufsausbildungsstellen Arzt- und Praxishilfe",
+                "Offene Berufsausbildungsstellen Gesund. Krankenpfl. Rettungsd. Geburtsh.",
+                "Offene Berufsausbildungsstellen Psychologie u. nichtärztl. -therapie",
+                ""
+              ]
+            },
+            "title": "Offene Arbeits- oder Berufsausbildungsstellen"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

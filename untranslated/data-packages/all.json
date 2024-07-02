@@ -353,8 +353,29 @@
             "type": "integer"
           },
           {
+            "name": "Offene Arbeits- oder Berufsausbildungsstellen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Offene Arbeitsstellen Arzt- und Praxishilfe",
+                "Offene Arbeitsstellen Medizin. Laboratorium",
+                "Offene Arbeitsstellen Gesund. Krankenpfl. Rettungsd. Geburtsh.",
+                "Offene Arbeitsstellen Human- und Zahnmedizin",
+                "Offene Arbeitsstellen Tiermedizin und -heilkunde",
+                "Offene Arbeitsstellen Psychologie u. nichtärztl. -therapie",
+                "Offene Arbeitsstellen nichtärztl. Therapie und Heilkunde",
+                "Offene Arbeitsstellen Pharmazie",
+                "Offene Arbeitsstellen Gesamt",
+                "Offene Berufsausbildungsstellen Arzt- und Praxishilfe",
+                "Offene Berufsausbildungsstellen Gesund. Krankenpfl. Rettungsd. Geburtsh.",
+                "Offene Berufsausbildungsstellen Psychologie u. nichtärztl. -therapie",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },
@@ -1595,7 +1616,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "mac-roman",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -1608,6 +1629,7 @@
             "constraints": {
               "enum": [
                 "Langzeitpflegeplätze",
+                "ambulante Pflegeangebote",
                 ""
               ]
             }
@@ -1944,6 +1966,39 @@
         ]
       },
       "title": "10-1"
+    },
+    {
+      "path": "15-6/data.csv",
+      "name": "15-6",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Flächen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Vertragsnaturschutzprogramm",
+                "Grünlandfläche Gesamt",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "15-6"
     },
     {
       "path": "14-2/data.csv",

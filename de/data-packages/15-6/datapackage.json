@@ -1,0 +1,42 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Flächen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Vertragsnaturschutzprogramm",
+                "Grünlandfläche Gesamt",
+                ""
+              ]
+            },
+            "title": "Flächen"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "15-6",
+  "title": "15-6"
+}
