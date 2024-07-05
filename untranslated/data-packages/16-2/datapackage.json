@@ -15,6 +15,25 @@
             "type": "integer"
           },
           {
+            "name": "Beteiligungsart",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Bürgerumfragen",
+                "Bürgerversammlungen",
+                "Kinder- und Jugendversammlungen",
+                "Infoveranstaltungen",
+                "sonstige Bürgerbeteiligung",
+                "BZA-Sitzungen",
+                "OB im BZA",
+                "OB Bürgersprechstunde",
+                "Landesgartenschau",
+                "Gesamt",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }
