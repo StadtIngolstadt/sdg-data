@@ -16,6 +16,18 @@
             "title": "Jahr"
           },
           {
+            "name": "Zertifizierungsart",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Fairtrade-School",
+                "Umweltschule",
+                ""
+              ]
+            },
+            "title": "Zertifizierungsart"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"

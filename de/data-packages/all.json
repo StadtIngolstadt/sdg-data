@@ -398,8 +398,6 @@
                 "Offene Arbeitsstellen Pharmazie",
                 "Offene Arbeitsstellen Gesamt",
                 "Offene Berufsausbildungsstellen Arzt- und Praxishilfe",
-                "Offene Berufsausbildungsstellen Gesund. Krankenpfl. Rettungsd. Geburtsh.",
-                "Offene Berufsausbildungsstellen Psychologie u. nichtärztl. -therapie",
                 ""
               ]
             },
@@ -1111,6 +1109,18 @@
             "name": "Year",
             "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Bayern",
+                "Ingolstadt",
+                ""
+              ]
+            },
+            "title": "Region"
           },
           {
             "name": "Value",
@@ -2043,6 +2053,18 @@
             "name": "Year",
             "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "Zertifizierungsart",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Fairtrade-School",
+                "Umweltschule",
+                ""
+              ]
+            },
+            "title": "Zertifizierungsart"
           },
           {
             "name": "Value",
