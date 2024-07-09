@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "euc_kr",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -16,20 +16,30 @@
             "title": "Jahr"
           },
           {
-            "name": "Nationalität",
+            "name": "Abschlussart nach Nationalität",
             "type": "string",
             "constraints": {
               "enum": [
-                "Ausländer",
-                "Gesamt",
+                "Deutsche - ohne berufl. Ausbildungsabschluss",
+                "Deutsche - mit anerkanntem Berufsabschluss",
+                "Deutsche - mit akademischem Abschluss",
+                "Deutsche - gesamt mit und ohne Abschluss",
+                "Ausländer - ohne berufl. Ausbildungsabschluss",
+                "Ausländer - mit anerkanntem Berufsabschluss",
+                "Ausländer - mit akademischem Abschluss",
+                "Ausländer - gesamt mit und ohne Abschluss",
+                "Alle - ohne berufl. Ausbildungsabschluss",
+                "Alle - mit anerkanntem Berufsabschluss",
+                "Alle - mit akademischem Abschluss",
+                "Alle - gesamt mit und ohne Abschluss",
                 ""
               ]
             },
-            "title": "Nationalität"
+            "title": "Abschlussart nach Nationalität"
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]
