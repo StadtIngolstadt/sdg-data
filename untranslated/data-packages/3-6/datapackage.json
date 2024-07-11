@@ -23,7 +23,6 @@
                 "Offene Arbeitsstellen Medizin. Laboratorium",
                 "Offene Arbeitsstellen Gesund. Krankenpfl. Rettungsd. Geburtsh.",
                 "Offene Arbeitsstellen Human- und Zahnmedizin",
-                "Offene Arbeitsstellen Tiermedizin und -heilkunde",
                 "Offene Arbeitsstellen Psychologie u. nichtärztl. -therapie",
                 "Offene Arbeitsstellen nichtärztl. Therapie und Heilkunde",
                 "Offene Arbeitsstellen Pharmazie",
@@ -35,7 +34,7 @@
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }
