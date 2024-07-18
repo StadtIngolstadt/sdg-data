@@ -15,8 +15,19 @@
             "type": "integer"
           },
           {
+            "name": "fertiggestellte Wohnungen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "barrierefreie Wohnungen der GWG",
+                "Wohnungen in Ingolstadt gesamt",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

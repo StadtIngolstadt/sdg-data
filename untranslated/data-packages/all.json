@@ -753,6 +753,18 @@
             "type": "integer"
           },
           {
+            "name": "Breitbandversorgung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ingolstadt",
+                "Freistaat Bayern",
+                "Bundesrepublik Deutschland",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }
@@ -775,8 +787,19 @@
             "type": "integer"
           },
           {
+            "name": "fertiggestellte Wohnungen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "barrierefreie Wohnungen der GWG",
+                "Wohnungen in Ingolstadt gesamt",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },

@@ -15,6 +15,18 @@
             "type": "integer"
           },
           {
+            "name": "Breitbandversorgung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ingolstadt",
+                "Freistaat Bayern",
+                "Bundesrepublik Deutschland",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }
