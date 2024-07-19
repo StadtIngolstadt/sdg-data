@@ -1512,17 +1512,15 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Gesamt",
                 "THI",
                 "KU",
-                "WFI",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },
@@ -2077,12 +2075,24 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "mac-roman",
       "schema": {
         "fields": [
           {
             "name": "Year",
             "type": "integer"
+          },
+          {
+            "name": "Einrichtung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "brigk",
+                "EGZ",
+                "EGZ mit Fokus Nachhaltigkeit / Neues Geschäftsmodell",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

@@ -19,17 +19,15 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Gesamt",
                 "THI",
                 "KU",
-                "WFI",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }
