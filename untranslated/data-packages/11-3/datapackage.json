@@ -15,7 +15,7 @@
             "type": "integer"
           },
           {
-            "name": "fertiggestellte Wohnungen",
+            "name": "Wohnungen",
             "type": "string",
             "constraints": {
               "enum": [
