@@ -16,8 +16,20 @@
             "title": "Jahr"
           },
           {
+            "name": "Kanalsystem",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Mischwasserkanalisation",
+                "Trennkanalisation",
+                ""
+              ]
+            },
+            "title": "Kanalsystem"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

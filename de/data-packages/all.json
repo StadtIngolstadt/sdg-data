@@ -1911,6 +1911,18 @@
             "title": "Jahr"
           },
           {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ingolstadt",
+                "Bayern",
+                ""
+              ]
+            },
+            "title": "Region"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
@@ -2249,8 +2261,20 @@
             "title": "Jahr"
           },
           {
+            "name": "Kanalsystem",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Mischwasserkanalisation",
+                "Trennkanalisation",
+                ""
+              ]
+            },
+            "title": "Kanalsystem"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
