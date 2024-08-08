@@ -7,13 +7,25 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "iso8859-9",
       "schema": {
         "fields": [
           {
             "name": "Year",
             "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "Naherholungsflächen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ha / 1000 EW",
+                "ha gesamt",
+                ""
+              ]
+            },
+            "title": "Naherholungsflächen"
           },
           {
             "name": "Value",
