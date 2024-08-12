@@ -611,6 +611,18 @@
             "title": "Jahr"
           },
           {
+            "name": "Flächenart",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Siedlungs-und Verkehrsfläche",
+                "Vegetation",
+                ""
+              ]
+            },
+            "title": "Flächenart"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"

@@ -562,6 +562,17 @@
             "type": "integer"
           },
           {
+            "name": "Flächenart",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Siedlungs-und Verkehrsfläche",
+                "Vegetation",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }
