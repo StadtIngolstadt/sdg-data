@@ -16,6 +16,19 @@
             "title": "Jahr"
           },
           {
+            "name": "Kinder zwischen 0 und 3 Jahre",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "gesamt",
+                "mit ausl. Elternteil",
+                "ohne ausl. Elternteil",
+                ""
+              ]
+            },
+            "title": "Kinder zwischen 0 und 3 Jahre"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"

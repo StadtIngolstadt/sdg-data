@@ -9,16 +9,18 @@ Breitbandversorgung,1,3
 Einrichtung,3,6
 Flächen,1,2
 Flächenart,3,3
-Geschlecht,1,2
+Geschlecht,2,5
 Haltestellen,1,4
 Kanalsystem,1,2
+Kinder zwischen 0 und 3 Jahre,1,3
 kWp,1,3
 Ladesäule,1,3
 Naherholungsflächen,1,2
+Neue Wohngebäude,1,7
 Offene Arbeits- oder Berufsausbildungsstellen,1,9
 Pflegeplatzart,1,2
 Präventionsart,1,5
-Region,3,2
+Region,4,2
 Schulart,1,4
 Sektoren,1,5
 Unterbringung,1,3

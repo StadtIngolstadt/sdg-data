@@ -485,8 +485,24 @@
             "type": "integer"
           },
           {
+            "name": "Neue Wohngebäude",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "gesamt",
+                "Fernwärme",
+                "Geothermie",
+                "Umweltthermie",
+                "Solarthermie",
+                "Holz",
+                "Biomasse",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       },
@@ -1049,6 +1065,18 @@
             "type": "integer"
           },
           {
+            "name": "Geschlecht",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "gesamt",
+                "männlich",
+                "weiblich",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }
@@ -1147,6 +1175,18 @@
           {
             "name": "Year",
             "type": "integer"
+          },
+          {
+            "name": "Kinder zwischen 0 und 3 Jahre",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "gesamt",
+                "mit ausl. Elternteil",
+                "ohne ausl. Elternteil",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -2728,8 +2768,19 @@
             "type": "integer"
           },
           {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ingolstadt",
+                "Bayern",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       },

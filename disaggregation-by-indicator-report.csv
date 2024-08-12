@@ -5,8 +5,10 @@ Indicator,Disaggregations,Number of disaggregations
 #11-10,Flächenart,1
 #11-11,Flächenart,1
 #11-14,Naherholungsflächen,1
+#11-17,Region,1
 #11-2,Haltestellen,1
 #11-3,Wohnungen,1
+#11-8,Neue Wohngebäude,1
 #11-9,Flächenart,1
 #12-1,Abfallart,1
 #12-3,Zertifizierungsart,1
@@ -19,7 +21,9 @@ Indicator,Disaggregations,Number of disaggregations
 #3-1,Pflegeplatzart,1
 #3-2,Präventionsart,1
 #3-6,Offene Arbeits- oder Berufsausbildungsstellen,1
+#3-7,Geschlecht,1
 #4-1,Einrichtung,1
+#4-5,Kinder zwischen 0 und 3 Jahre,1
 #4-7,Region,1
 #5-5,Geschlecht,1
 #6-4,Kanalsystem,1

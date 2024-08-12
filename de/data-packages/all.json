@@ -527,8 +527,25 @@
             "title": "Jahr"
           },
           {
+            "name": "Neue Wohngebäude",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "gesamt",
+                "Fernwärme",
+                "Geothermie",
+                "Umweltthermie",
+                "Solarthermie",
+                "Holz",
+                "Biomasse",
+                ""
+              ]
+            },
+            "title": "Neue Wohngebäude"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]
@@ -1142,6 +1159,19 @@
             "title": "Jahr"
           },
           {
+            "name": "Geschlecht",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "gesamt",
+                "männlich",
+                "weiblich",
+                ""
+              ]
+            },
+            "title": "Geschlecht"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"
@@ -1249,6 +1279,19 @@
             "name": "Year",
             "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "Kinder zwischen 0 und 3 Jahre",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "gesamt",
+                "mit ausl. Elternteil",
+                "ohne ausl. Elternteil",
+                ""
+              ]
+            },
+            "title": "Kinder zwischen 0 und 3 Jahre"
           },
           {
             "name": "Value",
@@ -2970,8 +3013,20 @@
             "title": "Jahr"
           },
           {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ingolstadt",
+                "Bayern",
+                ""
+              ]
+            },
+            "title": "Region"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]
