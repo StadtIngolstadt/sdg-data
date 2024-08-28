@@ -16,6 +16,17 @@
             "title": "Jahr"
           },
           {
+            "name": "Zertifizierung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Eine-Welt-KiTa",
+                ""
+              ]
+            },
+            "title": "Zertifizierung"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"

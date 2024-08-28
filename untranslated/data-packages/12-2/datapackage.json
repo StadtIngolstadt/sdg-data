@@ -15,6 +15,16 @@
             "type": "integer"
           },
           {
+            "name": "Zertifizierung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Eine-Welt-KiTa",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }
