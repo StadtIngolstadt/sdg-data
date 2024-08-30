@@ -15,8 +15,20 @@
             "type": "integer"
           },
           {
+            "name": "Lärmbelastete Fläche",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "über 55 dB",
+                "über 65 dB",
+                "über 75 dB",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

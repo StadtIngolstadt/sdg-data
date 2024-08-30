@@ -3061,8 +3061,21 @@
             "title": "Jahr"
           },
           {
+            "name": "Lärmbelastete Fläche",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "über 55 dB",
+                "über 65 dB",
+                "über 75 dB",
+                ""
+              ]
+            },
+            "title": "Lärmbelastete Fläche"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
