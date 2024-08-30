@@ -1,5 +1,6 @@
 Indicator,Disaggregations,Number of disaggregations
 #1-1,Unterbringung,1
+#10-2,Art der Diskriminierung,1
 #10-4,Abschlussart nach Nationalität,1
 #10-8,Schulart,1
 #11-10,Flächenart,1
@@ -22,12 +23,14 @@ Indicator,Disaggregations,Number of disaggregations
 #16-2,Beteiligungsart,1
 #3-1,Pflegeplatzart,1
 #3-2,Präventionsart,1
+#3-5,Luftschadstoff,1
 #3-6,Offene Arbeits- oder Berufsausbildungsstellen,1
 #3-7,Geschlecht,1
 #4-1,Einrichtung,1
 #4-5,Kinder zwischen 0 und 3 Jahre,1
 #4-7,Region,1
 #5-5,Geschlecht,1
+#6-3,Region,1
 #6-4,Kanalsystem,1
 #7-1,Anlagenart,1
 #7-2,kWp,1

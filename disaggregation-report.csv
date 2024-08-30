@@ -2,6 +2,7 @@ Disaggregation,Number of indicators,Number of values
 Abfallart,1,13
 Abschlussart nach Nationalität,1,12
 Anlagenart,1,8
+Art der Diskriminierung,1,8
 Ausgleichsflächen,1,3
 Badesee,1,2
 Beteiligungsart,1,10
@@ -15,13 +16,14 @@ Kanalsystem,1,2
 Kinder zwischen 0 und 3 Jahre,1,3
 kWp,1,3
 Ladesäule,1,3
+Luftschadstoff,1,3
 Lärmbelastete Fläche,1,3
 Naherholungsflächen,1,2
 Neue Wohngebäude,1,7
 Offene Arbeits- oder Berufsausbildungsstellen,1,9
 Pflegeplatzart,1,2
 Präventionsart,1,5
-Region,4,2
+Region,5,4
 Schulart,1,4
 Sektoren,1,6
 Unterbringung,1,3

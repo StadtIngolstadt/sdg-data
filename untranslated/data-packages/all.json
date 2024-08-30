@@ -1246,6 +1246,18 @@
             "type": "integer"
           },
           {
+            "name": "Luftschadstoff",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PM10",
+                "PM2.5",
+                "NO2",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }
@@ -1398,6 +1410,23 @@
           {
             "name": "Year",
             "type": "integer"
+          },
+          {
+            "name": "Art der Diskriminierung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ethnische Herkunft / rassistische Gründe",
+                "Geschlecht",
+                "Religion / Weltanschauung",
+                "Behinderung / Beeinträchtigung",
+                "Äußeres",
+                "Queer / Geschlechtsidentität / sexuelle Orientierung",
+                "Alter",
+                "Gesamt",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -1620,8 +1649,20 @@
             "type": "integer"
           },
           {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ingolstadt",
+                "Neuburg-Schrobenhausen",
+                "Eichstätt",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },

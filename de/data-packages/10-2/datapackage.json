@@ -16,6 +16,24 @@
             "title": "Jahr"
           },
           {
+            "name": "Art der Diskriminierung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ethnische Herkunft / rassistische Gründe",
+                "Geschlecht",
+                "Religion / Weltanschauung",
+                "Behinderung / Beeinträchtigung",
+                "Äußeres",
+                "Queer / Geschlechtsidentität / sexuelle Orientierung",
+                "Alter",
+                "Gesamt",
+                ""
+              ]
+            },
+            "title": "Art der Diskriminierung"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"

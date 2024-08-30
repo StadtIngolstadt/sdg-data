@@ -15,6 +15,18 @@
             "type": "integer"
           },
           {
+            "name": "Luftschadstoff",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PM10",
+                "PM2.5",
+                "NO2",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }
