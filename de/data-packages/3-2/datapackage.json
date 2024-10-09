@@ -20,11 +20,11 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Gesamt",
                 "universelle Prävention",
                 "selektive Prävention",
                 "indizierte Prävention",
                 "Verhältnisprävention",
-                "Gesamt",
                 ""
               ]
             },

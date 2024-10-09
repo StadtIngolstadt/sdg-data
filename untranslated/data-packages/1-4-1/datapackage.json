@@ -15,6 +15,17 @@
             "type": "integer"
           },
           {
+            "name": "SGB XII",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Hilfe zum Lebensunterhalt",
+                "Grundsicherung",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }

@@ -7,12 +7,23 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "mac-roman",
       "schema": {
         "fields": [
           {
             "name": "Year",
             "type": "integer"
+          },
+          {
+            "name": "Sozial geförderter Wohnraum",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Erteilte Wohnberechtigungen",
+                "Sozialwohnungsbezug",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

@@ -16,6 +16,19 @@
             "title": "Jahr"
           },
           {
+            "name": "Einrichtung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "KU-Eichstätt-Ingolstadt",
+                "TH Ingolstadt",
+                "Gesamt",
+                ""
+              ]
+            },
+            "title": "Einrichtung"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"

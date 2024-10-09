@@ -16,20 +16,17 @@
             "title": "Jahr"
           },
           {
-            "name": "Sektoren",
+            "name": "Ladesäule",
             "type": "string",
             "constraints": {
               "enum": [
-                "Haushalte",
-                "Industrie",
-                "GHD",
-                "Verkehr",
-                "Gesamtemissionen",
-                "GHD - Stadtverwaltung Ingolstadt",
+                "Normalladesäule",
+                "Schnellladesäule",
+                "Gesamt",
                 ""
               ]
             },
-            "title": "Sektoren"
+            "title": "Ladesäule"
           },
           {
             "name": "Value",

@@ -16,17 +16,17 @@
             "title": "Jahr"
           },
           {
-            "name": "Einrichtung",
+            "name": "Gründungssaldo",
             "type": "string",
             "constraints": {
               "enum": [
-                "brigk",
-                "EGZ",
-                "EGZ mit Fokus Nachhaltigkeit / Neues Geschäftsmodell",
+                "Anmeldungen",
+                "Abmeldungen",
+                "Saldo",
                 ""
               ]
             },
-            "title": "Einrichtung"
+            "title": "Gründungssaldo"
           },
           {
             "name": "Value",

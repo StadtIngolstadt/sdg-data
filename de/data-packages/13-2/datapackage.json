@@ -16,6 +16,22 @@
             "title": "Jahr"
           },
           {
+            "name": "Sektoren",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Haushalte",
+                "Industrie",
+                "GHD",
+                "Verkehr",
+                "Gesamtemissionen",
+                "GHD - Stadtverwaltung Ingolstadt",
+                ""
+              ]
+            },
+            "title": "Sektoren"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"

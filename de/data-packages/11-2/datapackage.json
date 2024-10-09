@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "iso8859-9",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -16,22 +16,26 @@
             "title": "Jahr"
           },
           {
-            "name": "Haltestellen",
+            "name": "Barrierefreie und inklusive Mobilitätsangebot",
             "type": "string",
             "constraints": {
               "enum": [
-                "Gesamt",
-                "Kassler Sonderboard",
-                "Vorlesetaster für Blinde",
-                "Taktikeles Leitsystem",
+                "gesamt barrierefreie Parkplätze",
+                "Ampeln mit Sensoren",
+                "Ampeln teilausgestattet mit Sensoren",
+                "städtische barrierefreie Parkplätze",
+                "Eltern-Kind-Parkplätze",
+                "Blindenleitsysteme",
+                "Bushaltestellen",
+                "Busse",
                 ""
               ]
             },
-            "title": "Haltestellen"
+            "title": "Barrierefreie und inklusive Mobilitätsangebot"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

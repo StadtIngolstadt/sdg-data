@@ -16,6 +16,21 @@
             "title": "Jahr"
           },
           {
+            "name": "Antriebsart",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Benzin",
+                "Diesel",
+                "Gas",
+                "Hybrid",
+                "Elektro",
+                ""
+              ]
+            },
+            "title": "Antriebsart"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"

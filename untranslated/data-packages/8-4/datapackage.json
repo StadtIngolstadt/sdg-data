@@ -15,13 +15,14 @@
             "type": "integer"
           },
           {
-            "name": "Einrichtung",
+            "name": "Langzeitleistungsbezieher und Langzeitarbeitslos",
             "type": "string",
             "constraints": {
               "enum": [
-                "Gesamt",
-                "THI",
-                "KU",
+                "Langzeitleistungsbezieher Männer",
+                "Langzeitleistungsbezieher Frauen",
+                "Langzeitarbeitslos Männer",
+                "Langzeitarbeitslos Frauen",
                 ""
               ]
             }

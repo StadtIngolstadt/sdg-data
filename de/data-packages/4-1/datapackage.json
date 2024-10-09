@@ -20,8 +20,11 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "THI",
-                "KU",
+                "THI - deutsche Studierende",
+                "THI - ausländische Studierende",
+                "KU - deutsche Studierende",
+                "KU - ausländische Studierende",
+                "gesamt",
                 ""
               ]
             },
@@ -29,7 +32,7 @@
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

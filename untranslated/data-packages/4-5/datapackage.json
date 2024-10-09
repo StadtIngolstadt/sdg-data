@@ -15,13 +15,13 @@
             "type": "integer"
           },
           {
-            "name": "Kinder zwischen 0 und 3 Jahre",
+            "name": "Herkunft",
             "type": "string",
             "constraints": {
               "enum": [
                 "gesamt",
-                "mit ausl. Elternteil",
-                "ohne ausl. Elternteil",
+                "mit Migrationshintergrund",
+                "ohne Migrationshintergrund",
                 ""
               ]
             }

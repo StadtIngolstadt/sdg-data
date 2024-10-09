@@ -16,6 +16,19 @@
             "title": "Jahr"
           },
           {
+            "name": "Waldflächen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Bilanz",
+                "Abgänge",
+                "Zugänge",
+                ""
+              ]
+            },
+            "title": "Waldflächen"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"

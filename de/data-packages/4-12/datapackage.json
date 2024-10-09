@@ -1,0 +1,47 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Förderart",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Institutionelle Förderung",
+                "Projektförderung",
+                "Mietzuschüsse",
+                "kirchliche Einrichtungen",
+                "Trachtenvereine",
+                "kirchliche Büchereien",
+                "gesamt",
+                ""
+              ]
+            },
+            "title": "Förderart"
+          },
+          {
+            "name": "Value",
+            "type": "string",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "4-12",
+  "title": "4-12"
+}

@@ -15,6 +15,17 @@
             "type": "integer"
           },
           {
+            "name": "Spiel-und Freizeitanlagen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "barrierefrei zugänglich",
+                "nicht barrierefrei zugänglich",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }

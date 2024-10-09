@@ -15,6 +15,17 @@
             "type": "integer"
           },
           {
+            "name": "Kleingartenanlagen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Parzellen",
+                "gesamt",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }

@@ -16,8 +16,23 @@
             "title": "Jahr"
           },
           {
+            "name": "Empfänger/-innen SGB II",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Männer",
+                "Frauen",
+                "Kinder unter 15 Jahre",
+                "Deutsch",
+                "Nicht-Deutsch",
+                ""
+              ]
+            },
+            "title": "Empfänger/-innen SGB II"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

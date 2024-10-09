@@ -15,6 +15,16 @@
             "type": "integer"
           },
           {
+            "name": "Frauenanteil",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Stadtrat",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }

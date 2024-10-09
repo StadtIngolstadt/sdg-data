@@ -16,6 +16,17 @@
             "title": "Jahr"
           },
           {
+            "name": "Frauenanteil",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Stadtrat",
+                ""
+              ]
+            },
+            "title": "Frauenanteil"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"

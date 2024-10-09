@@ -15,24 +15,21 @@
             "type": "integer"
           },
           {
-            "name": "Neue Wohngebäude",
+            "name": "Flächenart",
             "type": "string",
             "constraints": {
               "enum": [
-                "gesamt",
-                "Fernwärme",
-                "Geothermie",
-                "Umweltthermie",
-                "Solarthermie",
-                "Holz",
-                "Biomasse",
+                "Inanspruchnahme Siedlungs-und Verkehrsfläche",
+                "Inanspruchnahme Vegetation",
+                "Neuinanspruchnahme Siedlungs- und Verkehrsfläche",
+                "Neuinanspruchnahme Vegetation",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

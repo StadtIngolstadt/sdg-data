@@ -16,6 +16,18 @@
             "title": "Jahr"
           },
           {
+            "name": "Unfall mit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Getötete oder schwer verletzte",
+                "Personenschaden",
+                ""
+              ]
+            },
+            "title": "Unfall mit"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"

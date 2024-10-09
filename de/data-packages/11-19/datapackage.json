@@ -16,6 +16,18 @@
             "title": "Jahr"
           },
           {
+            "name": "Kleingartenanlagen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Parzellen",
+                "gesamt",
+                ""
+              ]
+            },
+            "title": "Kleingartenanlagen"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"

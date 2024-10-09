@@ -16,6 +16,20 @@
             "title": "Jahr"
           },
           {
+            "name": "Beschäftigtenquote",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Frauen",
+                "Männer",
+                "Deutsch",
+                "Nicht-Deutsch",
+                ""
+              ]
+            },
+            "title": "Beschäftigtenquote"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"

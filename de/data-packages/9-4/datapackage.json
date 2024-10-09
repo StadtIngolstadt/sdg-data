@@ -16,8 +16,21 @@
             "title": "Jahr"
           },
           {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ingolstadt",
+                "Bayern",
+                "Bund",
+                ""
+              ]
+            },
+            "title": "Region"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

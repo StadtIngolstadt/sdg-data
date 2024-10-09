@@ -15,6 +15,23 @@
             "type": "integer"
           },
           {
+            "name": "sv-Beschäftigte",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Männer",
+                "Frauen",
+                "Deutsche",
+                "Nicht-Deutsche",
+                "über 55 Jahre",
+                "mit Berufsabschluss",
+                "mit akademischen Abschluss",
+                "gesamt",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }

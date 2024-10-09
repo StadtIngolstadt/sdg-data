@@ -15,8 +15,20 @@
             "type": "integer"
           },
           {
+            "name": "Geschlecht",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "männlich",
+                "weiblich",
+                "gesamt",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

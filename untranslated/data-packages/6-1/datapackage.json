@@ -15,6 +15,18 @@
             "type": "integer"
           },
           {
+            "name": "sanitäre Einrichtungen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "barrierefrei gesamt",
+                "städtisch und barrierefrei",
+                "städtisch gesamt",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }

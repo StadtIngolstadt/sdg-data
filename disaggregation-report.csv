@@ -1,34 +1,61 @@
 Disaggregation,Number of indicators,Number of values
 Abfallart,1,13
 Abschlussart nach Nationalität,1,12
+Alleinerziehende,1,2
 Anlagenart,1,8
+Antriebsart,1,5
 Art der Diskriminierung,1,8
+Art des Wohngeldes,1,3
 Ausgleichsflächen,1,3
 Badesee,1,2
+Beschäftigtenquote,1,4
 Beteiligungsart,1,10
 Bezirk,1,13
+Bio-Lebensmittel,1,2
 Breitbandversorgung,1,3
-Einrichtung,3,6
+Einrichtung,2,9
+Empfänger/-innen SGB II,1,5
+Fachärzte,1,3
+Fläche,1,2
 Flächen,1,2
-Flächenart,3,3
-Geschlecht,2,5
-Haltestellen,1,4
+Flächenart,2,6
+Frauenanteil,1,1
+Förderart,1,7
+Geschlecht / Herkunft,2,4
+Geschlecht,4,3
+Gründungssaldo,1,3
+Herkunft,6,9
 Kanalsystem,1,2
-Kinder zwischen 0 und 3 Jahre,1,3
+Kitaplätze,1,3
+Kleingartenanlagen,1,2
 kWp,1,3
 Ladesäule,1,3
+Langzeitleistungsbezieher und Langzeitarbeitslos,1,4
 Luftschadstoff,1,3
 Lärmbelastete Fläche,1,3
+Modal Split,1,4
+Muttersprache,1,2
 Naherholungsflächen,1,2
 Neue Wohngebäude,1,7
+Nutzer,1,2
 Offene Arbeits- oder Berufsausbildungsstellen,1,9
-Pflegeplatzart,1,2
+Pflegeangebot,1,2
 Präventionsart,1,5
-Region,5,4
+Region,7,8
+sanitäre Einrichtungen,1,3
 Schulart,1,4
 Sektoren,1,6
+SGB XII,1,2
+Sozial geförderter Wohnraum,1,2
+Spiel-und Freizeitanlagen,1,2
+sv-Beschäftigte,1,8
+Unfall mit,1,2
 Unterbringung,1,3
+Versorgungsgrad,1,10
 Verwertungsquoten Deutschland,1,2
+Wahl,1,4
+Waldflächen,1,3
 Wohnungen,1,2
 Zertifizierung,1,1
 Zertifizierungsart,1,2
+Zuganspunkte,1,2

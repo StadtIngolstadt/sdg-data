@@ -20,7 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Siedlungs-und Verkehrsfläche",
+                "Siedlungs- und Verkehrsfläche",
                 "Vegetation",
                 ""
               ]

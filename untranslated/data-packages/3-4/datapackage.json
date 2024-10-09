@@ -15,8 +15,20 @@
             "type": "integer"
           },
           {
+            "name": "Fachärzte",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "allgemeine fachärztliche Versorgung",
+                "spezialisierte fachärztliche Versorgung",
+                "gesamt",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

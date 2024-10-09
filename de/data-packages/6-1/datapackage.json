@@ -16,6 +16,19 @@
             "title": "Jahr"
           },
           {
+            "name": "sanitäre Einrichtungen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "barrierefrei gesamt",
+                "städtisch und barrierefrei",
+                "städtisch gesamt",
+                ""
+              ]
+            },
+            "title": "sanitäre Einrichtungen"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"

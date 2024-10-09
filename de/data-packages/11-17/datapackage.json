@@ -16,20 +16,22 @@
             "title": "Jahr"
           },
           {
-            "name": "Region",
+            "name": "Modal Split",
             "type": "string",
             "constraints": {
               "enum": [
-                "Ingolstadt",
-                "Bayern",
+                "zu Fuß",
+                "Fahrrad",
+                "MIV",
+                "ÖV",
                 ""
               ]
             },
-            "title": "Region"
+            "title": "Modal Split"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

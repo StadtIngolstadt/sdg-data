@@ -12,35 +12,12 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "string",
             "title": "Jahr"
           },
           {
-            "name": "Bezirk",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "I Mitte",
-                "II Nordwest",
-                "III Nordost",
-                "IV Südost",
-                "V Südwest",
-                "VI West",
-                "VII Etting",
-                "VIII Oberhaunstadt",
-                "IX Mailing",
-                "X Süd",
-                "XI Friedrichshofen-Hollerstauden",
-                "XII Münchener Straße",
-                "Gesamt",
-                ""
-              ]
-            },
-            "title": "Bezirk"
-          },
-          {
             "name": "Value",
-            "type": "number",
+            "type": "string",
             "title": "Value"
           }
         ]

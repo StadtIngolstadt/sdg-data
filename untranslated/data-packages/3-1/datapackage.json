@@ -15,12 +15,12 @@
             "type": "integer"
           },
           {
-            "name": "Pflegeplatzart",
+            "name": "Pflegeangebot",
             "type": "string",
             "constraints": {
               "enum": [
-                "Langzeitpflegeplätze",
                 "ambulante Pflegeangebote",
+                "Langzeitpflegeplätze",
                 ""
               ]
             }

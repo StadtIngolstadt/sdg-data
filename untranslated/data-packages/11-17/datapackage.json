@@ -15,19 +15,21 @@
             "type": "integer"
           },
           {
-            "name": "Region",
+            "name": "Modal Split",
             "type": "string",
             "constraints": {
               "enum": [
-                "Ingolstadt",
-                "Bayern",
+                "zu Fuß",
+                "Fahrrad",
+                "MIV",
+                "ÖV",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

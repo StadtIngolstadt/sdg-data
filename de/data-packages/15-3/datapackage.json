@@ -16,8 +16,20 @@
             "title": "Jahr"
           },
           {
+            "name": "Flächen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Vertragsnaturschutzprogramm",
+                "Grünlandfläche Gesamt",
+                ""
+              ]
+            },
+            "title": "Flächen"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

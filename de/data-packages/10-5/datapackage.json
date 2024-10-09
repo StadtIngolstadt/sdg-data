@@ -16,6 +16,18 @@
             "title": "Jahr"
           },
           {
+            "name": "Herkunft",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "mit Migrationshintergrund",
+                "ohne Migrationshintergrund",
+                ""
+              ]
+            },
+            "title": "Herkunft"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"

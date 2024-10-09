@@ -1,43 +1,78 @@
 Indicator,Disaggregations,Number of disaggregations
 #1-1,Unterbringung,1
+#1-2,Sozial geförderter Wohnraum,1
+#1-4-1,SGB XII,1
+#1-4-2,Empfänger/-innen SGB II,1
+#1-5,Geschlecht,1
+#1-7,Alleinerziehende,1
+#1-9,Art des Wohngeldes,1
+#10-11,Muttersprache,1
 #10-2,Art der Diskriminierung,1
+#10-3,Herkunft,1
 #10-4,Abschlussart nach Nationalität,1
+#10-5,Herkunft,1
+#10-6,Geschlecht,1
 #10-8,Schulart,1
-#11-10,Flächenart,1
-#11-11,Flächenart,1
-#11-12,Lärmbelastete Fläche,1
-#11-14,Naherholungsflächen,1
-#11-17,Region,1
-#11-18,Bezirk,1
-#11-2,Haltestellen,1
+#11-1,Antriebsart,1
+#11-10,Lärmbelastete Fläche,1
+#11-12,Naherholungsflächen,1
+#11-15,Region,1
+#11-16,Bezirk,1
+#11-17,Modal Split,1
+#11-19,Kleingartenanlagen,1
 #11-3,Wohnungen,1
-#11-8,Neue Wohngebäude,1
+#11-5,Unfall mit,1
+#11-6,Spiel-und Freizeitanlagen,1
+#11-7,Neue Wohngebäude,1
+#11-8,Flächenart,1
 #11-9,Flächenart,1
 #12-1,Abfallart,1
 #12-2,Zertifizierung,1
 #12-3,Zertifizierungsart,1
 #12-5,Verwertungsquoten Deutschland,1
 #12-6,Region,1
+#13-2,Sektoren,1
 #14-2,Badesee,1
+#15-2,Fläche,1
+#15-3,Flächen,1
 #15-4,Ausgleichsflächen,1
-#15-6,Flächen,1
+#15-5,Waldflächen,1
 #16-2,Beteiligungsart,1
-#3-1,Pflegeplatzart,1
+#16-7,Wahl,1
+#17-3,Einrichtung,1
+#3-1,Pflegeangebot,1
+#3-10,Bio-Lebensmittel,1
+#3-11,Herkunft,1
+#3-12,Geschlecht / Herkunft,1
+#3-13,Geschlecht / Herkunft,1
+#3-14,Versorgungsgrad,1
 #3-2,Präventionsart,1
+#3-3,Region,1
+#3-4,Fachärzte,1
 #3-5,Luftschadstoff,1
 #3-6,Offene Arbeits- oder Berufsausbildungsstellen,1
 #3-7,Geschlecht,1
+#3-9,Geschlecht,1
 #4-1,Einrichtung,1
-#4-5,Kinder zwischen 0 und 3 Jahre,1
+#4-10,Nutzer,1
+#4-11,Zuganspunkte,1
+#4-12,Förderart,1
+#4-3,Herkunft,1
+#4-5,Herkunft,1
 #4-7,Region,1
-#5-5,Geschlecht,1
+#4-8,Kitaplätze,1
+#5-3,Frauenanteil,1
+#6-1,sanitäre Einrichtungen,1
 #6-3,Region,1
 #6-4,Kanalsystem,1
 #7-1,Anlagenart,1
 #7-2,kWp,1
-#7-3,Sektoren,1
-#7-4,Ladesäule,1
+#7-3,Ladesäule,1
+#8-2,Beschäftigtenquote,1
 #8-3,Region,1
-#8-4,Einrichtung,1
-#9-1,Einrichtung,1
+#8-4,Langzeitleistungsbezieher und Langzeitarbeitslos,1
+#8-6,sv-Beschäftigte,1
+#8-7,Herkunft,1
+#9-1,Gründungssaldo,1
 #9-2,Breitbandversorgung,1
+#9-4,Region,1

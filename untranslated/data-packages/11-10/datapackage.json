@@ -15,12 +15,13 @@
             "type": "integer"
           },
           {
-            "name": "Flächenart",
+            "name": "Lärmbelastete Fläche",
             "type": "string",
             "constraints": {
               "enum": [
-                "Siedlungs- und Verkehrsfläche",
-                "Vegetation",
+                "über 55 dB",
+                "über 65 dB",
+                "über 75 dB",
                 ""
               ]
             }

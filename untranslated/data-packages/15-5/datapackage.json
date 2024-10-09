@@ -15,6 +15,18 @@
             "type": "integer"
           },
           {
+            "name": "Waldflächen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Bilanz",
+                "Abgänge",
+                "Zugänge",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }

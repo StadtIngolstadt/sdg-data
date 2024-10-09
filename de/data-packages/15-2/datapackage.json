@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "mac-roman",
       "schema": {
         "fields": [
           {
@@ -16,8 +16,20 @@
             "title": "Jahr"
           },
           {
+            "name": "Fläche",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Biotop",
+                "gesamt",
+                ""
+              ]
+            },
+            "title": "Fläche"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

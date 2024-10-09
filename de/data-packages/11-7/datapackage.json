@@ -16,6 +16,23 @@
             "title": "Jahr"
           },
           {
+            "name": "Neue Wohngebäude",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "gesamt",
+                "Fernwärme",
+                "Geothermie",
+                "Umweltthermie",
+                "Solarthermie",
+                "Holz",
+                "Biomasse",
+                ""
+              ]
+            },
+            "title": "Neue Wohngebäude"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"

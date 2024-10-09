@@ -1,0 +1,41 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Geschlecht / Herkunft",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "männlich",
+                "weiblich",
+                "mit Migrationshintergrund",
+                "ohne Migrationshintergrund",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "3-13",
+  "title": "3-13"
+}

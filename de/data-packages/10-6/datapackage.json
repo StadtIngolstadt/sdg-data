@@ -16,6 +16,19 @@
             "title": "Jahr"
           },
           {
+            "name": "Geschlecht",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "männlich",
+                "weiblich",
+                "gesamt",
+                ""
+              ]
+            },
+            "title": "Geschlecht"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"

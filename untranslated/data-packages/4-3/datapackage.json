@@ -15,8 +15,20 @@
             "type": "integer"
           },
           {
+            "name": "Herkunft",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "gesamt",
+                "mit Migrationshintergrund",
+                "ohne Migrationshintergrund",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

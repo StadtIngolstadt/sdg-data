@@ -16,17 +16,18 @@
             "title": "Jahr"
           },
           {
-            "name": "Einrichtung",
+            "name": "Langzeitleistungsbezieher und Langzeitarbeitslos",
             "type": "string",
             "constraints": {
               "enum": [
-                "Gesamt",
-                "THI",
-                "KU",
+                "Langzeitleistungsbezieher Männer",
+                "Langzeitleistungsbezieher Frauen",
+                "Langzeitarbeitslos Männer",
+                "Langzeitarbeitslos Frauen",
                 ""
               ]
             },
-            "title": "Einrichtung"
+            "title": "Langzeitleistungsbezieher und Langzeitarbeitslos"
           },
           {
             "name": "Value",

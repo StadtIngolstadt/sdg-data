@@ -15,8 +15,20 @@
             "type": "integer"
           },
           {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ingolstadt",
+                "Bayern",
+                "Bund",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }
