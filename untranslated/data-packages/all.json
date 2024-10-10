@@ -1894,6 +1894,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Verwaltung",
                 "Stadtrat",
                 ""
               ]
