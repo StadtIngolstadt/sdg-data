@@ -2337,6 +2337,22 @@
             "title": "Jahr"
           },
           {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Deutschland",
+                "Bayern",
+                "Ingolstadt",
+                "Landkreis Eichstätt",
+                "Landkreis Neuburg-Schrobenhausen",
+                "Landkreis Pfaffenhofen a. d. Ilm",
+                ""
+              ]
+            },
+            "title": "Region"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"

@@ -15,6 +15,21 @@
             "type": "integer"
           },
           {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Deutschland",
+                "Bayern",
+                "Ingolstadt",
+                "Landkreis Eichstätt",
+                "Landkreis Neuburg-Schrobenhausen",
+                "Landkreis Pfaffenhofen a. d. Ilm",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }
