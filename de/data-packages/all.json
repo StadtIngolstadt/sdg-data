@@ -3071,6 +3071,43 @@
       "title": "3-4"
     },
     {
+      "path": "8-8/data.csv",
+      "name": "8-8",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Herkunft",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "EU/EWR-Bürger",
+                "Nicht-EU-Bürger",
+                "gesamt",
+                ""
+              ]
+            },
+            "title": "Herkunft"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "8-8"
+    },
+    {
       "path": "1-6/data.csv",
       "name": "1-6",
       "profile": "tabular-data-resource",
