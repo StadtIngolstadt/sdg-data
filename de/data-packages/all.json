@@ -24,8 +24,8 @@
               "enum": [
                 "Kommunalwahl",
                 "Bundestagswahl",
-                "Europawahl",
                 "Landtagswahl",
+                "Europawahl",
                 ""
               ]
             },
