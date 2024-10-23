@@ -2274,18 +2274,18 @@
                 "gesamt barrierefreie Parkplätze",
                 "Ampeln mit Sensoren",
                 "Ampeln teilausgestattet mit Sensoren",
+                "Bushaltestellen DFI inkl. akustische Ansagen",
                 "Blindenleitsysteme",
                 "städtische barrierefreie Parkplätze",
                 "Eltern-Kind-Parkplätze",
-                "Bushaltestellen",
-                "Busse",
+                "Bushaltestellen taktile Ausstattung",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       },
