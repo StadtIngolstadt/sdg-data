@@ -16,7 +16,7 @@
             "title": "Jahr"
           },
           {
-            "name": "Zuganspunkte",
+            "name": "Zugangspunkte",
             "type": "string",
             "constraints": {
               "enum": [
@@ -25,7 +25,7 @@
                 ""
               ]
             },
-            "title": "Zuganspunkte"
+            "title": "Zugangspunkte"
           },
           {
             "name": "Value",

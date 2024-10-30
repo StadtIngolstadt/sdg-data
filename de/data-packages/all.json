@@ -372,21 +372,20 @@
             "title": "Jahr"
           },
           {
-            "name": "Geschlecht",
+            "name": "Quote",
             "type": "string",
             "constraints": {
               "enum": [
-                "männlich",
-                "weiblich",
-                "gesamt",
+                "SGB II",
+                "SGB XII",
                 ""
               ]
             },
-            "title": "Geschlecht"
+            "title": "Quote"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
@@ -877,6 +876,7 @@
               "enum": [
                 "Hilfe zum Lebensunterhalt",
                 "Grundsicherung",
+                "Erwerbsminderungsrente",
                 ""
               ]
             },
@@ -2301,7 +2301,7 @@
             "title": "Jahr"
           },
           {
-            "name": "Zuganspunkte",
+            "name": "Zugangspunkte",
             "type": "string",
             "constraints": {
               "enum": [
@@ -2310,7 +2310,7 @@
                 ""
               ]
             },
-            "title": "Zuganspunkte"
+            "title": "Zugangspunkte"
           },
           {
             "name": "Value",

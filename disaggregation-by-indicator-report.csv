@@ -3,7 +3,7 @@ Indicator,Disaggregations,Number of disaggregations
 #1-2,Sozial geförderter Wohnraum,1
 #1-4-1,SGB XII,1
 #1-4-2,Empfänger/-innen SGB II,1
-#1-5,Geschlecht,1
+#1-5,Quote,1
 #1-7,Alleinerziehende,1
 #1-8,Region,1
 #1-9,Art des Wohngeldes,1
@@ -57,7 +57,7 @@ Indicator,Disaggregations,Number of disaggregations
 #3-9,Geschlecht,1
 #4-1,Einrichtung,1
 #4-10,Nutzer,1
-#4-11,Zuganspunkte,1
+#4-11,Zugangspunkte,1
 #4-12,Förderart,1
 #4-3,Herkunft,1
 #4-5,Herkunft,1

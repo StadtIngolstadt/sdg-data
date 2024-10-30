@@ -22,6 +22,7 @@
               "enum": [
                 "Hilfe zum Lebensunterhalt",
                 "Grundsicherung",
+                "Erwerbsminderungsrente",
                 ""
               ]
             },
