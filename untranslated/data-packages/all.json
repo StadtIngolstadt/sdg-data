@@ -979,7 +979,7 @@
             "type": "integer"
           },
           {
-            "name": "Unfall mit",
+            "name": "Verunglückte im Verkehr",
             "type": "string",
             "constraints": {
               "enum": [
@@ -991,7 +991,7 @@
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },

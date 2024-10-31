@@ -16,7 +16,7 @@
             "title": "Jahr"
           },
           {
-            "name": "Unfall mit",
+            "name": "Verunglückte im Verkehr",
             "type": "string",
             "constraints": {
               "enum": [
@@ -25,11 +25,11 @@
                 ""
               ]
             },
-            "title": "Unfall mit"
+            "title": "Verunglückte im Verkehr"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
