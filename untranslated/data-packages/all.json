@@ -1054,14 +1054,14 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Biomasse in Watt",
-                "Biomasse in Watt/EW",
-                "Wasserkraft in Watt",
-                "Wasserkraft in Watt/EW",
-                "Photovoltaik in Watt",
-                "Photovoltaik in Watt/EW",
-                "Gesamt in Watt",
-                "Gesamt in Watt/EW",
+                "Biomasse in kW",
+                "Biomasse in kW/EW",
+                "Wasserkraft in kW",
+                "Wasserkraft in kW/EW",
+                "Photovoltaik in kW",
+                "Photovoltaik in kW/EW",
+                "Gesamt in kW",
+                "Gesamt in kW/EW",
                 ""
               ]
             }
