@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "euc_kr",
       "schema": {
         "fields": [
           {
@@ -16,21 +16,23 @@
             "title": "Jahr"
           },
           {
-            "name": "Unterbringung",
+            "name": "Herkunft und Geschlecht",
             "type": "string",
             "constraints": {
               "enum": [
-                "Unterbringung",
-                "Vermittlung in eigenen Wohnraum",
-                "Vermittlung in Therapie oder sonstige stat. Einrichtung",
+                "Deutsche",
+                "Ausländer",
+                "männlich",
+                "weiblich",
+                "gesamt",
                 ""
               ]
             },
-            "title": "Unterbringung"
+            "title": "Herkunft und Geschlecht"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
