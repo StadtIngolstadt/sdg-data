@@ -21,8 +21,8 @@
             "constraints": {
               "enum": [
                 "gesamt",
-                "mit Migrationshintergrund",
-                "ohne Migrationshintergrund",
+                "Ausländer",
+                "Deutsche",
                 ""
               ]
             },
@@ -30,7 +30,7 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
