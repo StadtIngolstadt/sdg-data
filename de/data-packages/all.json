@@ -453,6 +453,44 @@
       "title": "4-6"
     },
     {
+      "path": "3-15/data.csv",
+      "name": "3-15",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "iso8859-9",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ingolstadt",
+                "Eichstätt",
+                "Neuburg-Schrobenhausen",
+                "Pfaffenhofen an der Ilm",
+                ""
+              ]
+            },
+            "title": "Region"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "3-15"
+    },
+    {
       "path": "6-5/data.csv",
       "name": "6-5",
       "profile": "tabular-data-resource",
@@ -3367,13 +3405,27 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "iso8859-9",
       "schema": {
         "fields": [
           {
             "name": "Year",
             "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ingolstadt",
+                "Eichstätt",
+                "Neuburg Schrobenhausen",
+                "Pfaffenhofen an der Ilm",
+                ""
+              ]
+            },
+            "title": "Region"
           },
           {
             "name": "Value",

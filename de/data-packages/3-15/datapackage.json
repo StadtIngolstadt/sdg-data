@@ -12,7 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "integer",
+            "title": "Jahr"
           },
           {
             "name": "Region",
@@ -21,21 +22,23 @@
               "enum": [
                 "Ingolstadt",
                 "Eichstätt",
-                "Neuburg Schrobenhausen",
+                "Neuburg-Schrobenhausen",
                 "Pfaffenhofen an der Ilm",
                 ""
               ]
-            }
+            },
+            "title": "Region"
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "integer",
+            "title": "Value"
           }
         ]
       }
     }
   ],
   "profile": "data-package",
-  "name": "4-9",
-  "title": "4-9"
+  "name": "3-15",
+  "title": "3-15"
 }
