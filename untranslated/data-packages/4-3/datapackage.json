@@ -20,8 +20,8 @@
             "constraints": {
               "enum": [
                 "gesamt",
-                "Ausländer",
-                "Deutsche",
+                "mit Migrationshintergrund",
+                "ohne Migrationshintergrund",
                 ""
               ]
             }

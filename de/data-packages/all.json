@@ -1461,8 +1461,6 @@
                 "Männer",
                 "Frauen",
                 "Kinder unter 15 Jahre",
-                "Deutsch",
-                "Nicht-Deutsch",
                 ""
               ]
             },
@@ -2307,8 +2305,8 @@
             "constraints": {
               "enum": [
                 "gesamt",
-                "Ausländer",
-                "Deutsche",
+                "mit Migrationshintergrund",
+                "ohne Migrationshintergrund",
                 ""
               ]
             },
