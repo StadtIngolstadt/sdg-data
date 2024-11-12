@@ -16,17 +16,17 @@
             "title": "Jahr"
           },
           {
-            "name": "Herkunft",
+            "name": "Träger",
             "type": "string",
             "constraints": {
               "enum": [
                 "gesamt",
-                "mit Migrationshintergrund",
-                "ohne Migrationshintergrund",
+                "städtische Trägerschaft",
+                "freie Trägerschaft",
                 ""
               ]
             },
-            "title": "Herkunft"
+            "title": "Träger"
           },
           {
             "name": "Value",
