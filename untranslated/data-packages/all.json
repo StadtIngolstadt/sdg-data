@@ -928,8 +928,8 @@
             "constraints": {
               "enum": [
                 "gesamt",
-                "städtische Trägerschaft",
                 "freie Trägerschaft",
+                "städtische Trägerschaft",
                 ""
               ]
             }
@@ -2184,8 +2184,8 @@
             "constraints": {
               "enum": [
                 "gesamt",
-                "städtische Trägerschaft",
                 "freie Trägerschaft",
+                "städtische Trägerschaft",
                 ""
               ]
             }
