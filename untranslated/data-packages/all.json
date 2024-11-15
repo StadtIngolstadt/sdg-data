@@ -428,20 +428,22 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "Region",
             "type": "string",
             "constraints": {
               "enum": [
+                "Bayern",
+                "Ingolstadt",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "string"
+            "type": "number"
           }
         ]
       },
@@ -1586,20 +1588,22 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "Region",
             "type": "string",
             "constraints": {
               "enum": [
+                "Bayern",
+                "Ingolstadt",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "string"
+            "type": "number"
           }
         ]
       },
