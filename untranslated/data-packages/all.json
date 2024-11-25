@@ -766,6 +766,8 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Kurzzeitpflegeplätze",
+                "Kurzzeitpflegplätze",
                 "ambulante Pflegeangebote",
                 "Langzeitpflegeplätze",
                 ""
