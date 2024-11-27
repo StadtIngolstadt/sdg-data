@@ -3233,16 +3233,30 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "euc_jp",
       "schema": {
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
+          },
+          {
+            "name": "Zielgruppe",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "alle Zielgruppen",
+                "speziell für Senioren",
+                "speziell für Kinder und Jugendliche",
+                "speziell für Eltern und Familie",
+                "speziell für Menschen mit Behinderung",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "string"
+            "type": "integer"
           }
         ]
       },
