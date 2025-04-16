@@ -1,11 +1,10 @@
-Year,Herkunft und Geschlecht,Value
-2022,Deutsche,0.067
-2022,Ausländer,0.12
-2022,männlich,0.13
-2022,weiblich,0.064
-2022,gesamt,0.188
-2023,Deutsche,0.088
-2023,Ausländer,0.26
-2023,männlich,0.197
-2023,weiblich,0.151
-2023,gesamt,0.348
+Year,Region,Value
+2022,Ingolstadt,0.19
+2022,Regensburg,0.21
+2022,München,0.6
+2023,Ingolstadt,0.36
+2023,Regensburg,0.42
+2023,München,0.71
+2024,Ingolstadt,0.43
+2024,Regensburg,0.35
+2024,München,0.72

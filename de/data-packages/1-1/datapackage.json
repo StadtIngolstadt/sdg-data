@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "euc_kr",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -16,19 +16,17 @@
             "title": "Jahr"
           },
           {
-            "name": "Herkunft und Geschlecht",
+            "name": "Region",
             "type": "string",
             "constraints": {
               "enum": [
-                "Deutsche",
-                "Ausländer",
-                "männlich",
-                "weiblich",
-                "gesamt",
+                "Ingolstadt",
+                "Regensburg",
+                "München",
                 ""
               ]
             },
-            "title": "Herkunft und Geschlecht"
+            "title": "Region"
           },
           {
             "name": "Value",
