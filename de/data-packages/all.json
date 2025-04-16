@@ -3,8 +3,8 @@
   "title": "All indicators",
   "resources": [
     {
-      "path": "3-9/data.csv",
-      "name": "3-9",
+      "path": "9-5/data.csv",
+      "name": "9-5",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -18,16 +18,66 @@
             "title": "Jahr"
           },
           {
-            "name": "Geschlecht",
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "9-5"
+    },
+    {
+      "path": "5-1/data.csv",
+      "name": "5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "5-1"
+    },
+    {
+      "path": "3-13/data.csv",
+      "name": "3-13",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Geschlecht / Herkunft",
             "type": "string",
             "constraints": {
               "enum": [
                 "männlich",
                 "weiblich",
+                "mit Migrationshintergrund",
+                "ohne Migrationshintergrund",
                 ""
               ]
             },
-            "title": "Geschlecht"
+            "title": "Geschlecht / Herkunft"
           },
           {
             "name": "Value",
@@ -36,7 +86,476 @@
           }
         ]
       },
-      "title": "3-9"
+      "title": "3-13"
+    },
+    {
+      "path": "6-3/data.csv",
+      "name": "6-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ingolstadt",
+                "Neuburg-Schrobenhausen",
+                "Eichstätt",
+                ""
+              ]
+            },
+            "title": "Region"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "6-3"
+    },
+    {
+      "path": "9-3/data.csv",
+      "name": "9-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "9-3"
+    },
+    {
+      "path": "7-2/data.csv",
+      "name": "7-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "iso8859-9",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "kWp",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Zubau",
+                "Gesamtleistung Ingolstadt",
+                "Gesamtleistung städtische Anlagen",
+                ""
+              ]
+            },
+            "title": "kWp"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "7-2"
+    },
+    {
+      "path": "12-2/data.csv",
+      "name": "12-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Zertifizierung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Eine-Welt-KiTa",
+                ""
+              ]
+            },
+            "title": "Zertifizierung"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "12-2"
+    },
+    {
+      "path": "17-4/data.csv",
+      "name": "17-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "17-4"
+    },
+    {
+      "path": "11-18/data.csv",
+      "name": "11-18",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "euc_jp",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Zielgruppe",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "alle Zielgruppen",
+                "speziell für Senioren",
+                "speziell für Kinder und Jugendliche",
+                "speziell für Eltern und Familie",
+                "speziell für Menschen mit Behinderung",
+                ""
+              ]
+            },
+            "title": "Zielgruppe"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "11-18"
+    },
+    {
+      "path": "3-4/data.csv",
+      "name": "3-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Fachärzte",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "allgemeine fachärztliche Versorgung",
+                "spezialisierte fachärztliche Versorgung",
+                "gesamt",
+                ""
+              ]
+            },
+            "title": "Fachärzte"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "3-4"
+    },
+    {
+      "path": "11-6/data.csv",
+      "name": "11-6",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Spiel-und Freizeitanlagen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "barrierefrei zugänglich",
+                "nicht barrierefrei zugänglich",
+                ""
+              ]
+            },
+            "title": "Spiel-und Freizeitanlagen"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "11-6"
+    },
+    {
+      "path": "1-6/data.csv",
+      "name": "1-6",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "1-6"
+    },
+    {
+      "path": "14-2/data.csv",
+      "name": "14-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Badesee",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Baggersee",
+                "Auwaldsee",
+                ""
+              ]
+            },
+            "title": "Badesee"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "14-2"
+    },
+    {
+      "path": "15-4/data.csv",
+      "name": "15-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "iso8859-9",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Ausgleichsflächen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Gartenamt",
+                "Forstamt",
+                "Gesamt",
+                ""
+              ]
+            },
+            "title": "Ausgleichsflächen"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "15-4"
+    },
+    {
+      "path": "1-3/data.csv",
+      "name": "1-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "1-3"
+    },
+    {
+      "path": "8-4/data.csv",
+      "name": "8-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Langzeitleistungsbezieher und Langzeitarbeitslos",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Langzeitleistungsbezieher Männer",
+                "Langzeitleistungsbezieher Frauen",
+                "Langzeitarbeitslos Männer",
+                "Langzeitarbeitslos Frauen",
+                ""
+              ]
+            },
+            "title": "Langzeitleistungsbezieher und Langzeitarbeitslos"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "8-4"
+    },
+    {
+      "path": "4-12/data.csv",
+      "name": "4-12",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Förderart",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Institutionelle Förderung",
+                "Projektförderung",
+                "Mietzuschüsse",
+                "kirchliche Einrichtungen",
+                "Trachtenvereine",
+                "kirchliche Büchereien",
+                "gesamt",
+                ""
+              ]
+            },
+            "title": "Förderart"
+          },
+          {
+            "name": "Value",
+            "type": "string",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "4-12"
     },
     {
       "path": "1-4-1/data.csv",
@@ -74,422 +593,6 @@
         ]
       },
       "title": "1-4-1"
-    },
-    {
-      "path": "10-8/data.csv",
-      "name": "10-8",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Schulart",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Grundschule",
-                "Mittelschule",
-                "Realschule",
-                "Gymnasium",
-                ""
-              ]
-            },
-            "title": "Schulart"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "10-8"
-    },
-    {
-      "path": "10-10/data.csv",
-      "name": "10-10",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "10-10"
-    },
-    {
-      "path": "6-5/data.csv",
-      "name": "6-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "6-5"
-    },
-    {
-      "path": "4-7/data.csv",
-      "name": "4-7",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Bayern",
-                "Ingolstadt",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "4-7"
-    },
-    {
-      "path": "12-3/data.csv",
-      "name": "12-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Zertifizierungsart",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Fairtrade-School",
-                "Umweltschule",
-                ""
-              ]
-            },
-            "title": "Zertifizierungsart"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "12-3"
-    },
-    {
-      "path": "9-5/data.csv",
-      "name": "9-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "9-5"
-    },
-    {
-      "path": "2-1/data.csv",
-      "name": "2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Weggeworfen in t",
-                "Gerettet in t",
-                "Gerettet anteilig in %",
-                ""
-              ]
-            },
-            "title": "Units"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "2-1"
-    },
-    {
-      "path": "12-1/data.csv",
-      "name": "12-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Abfallart",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Restmüll",
-                "Biomüll",
-                "Papier",
-                "Sperrmüll",
-                "Altholz",
-                "Metallschrott",
-                "Elektrogeräte",
-                "Textilien",
-                "Grüngut",
-                "Bauschutt",
-                "gelber Sack",
-                "Flaschenglas",
-                "gesamt",
-                ""
-              ]
-            },
-            "title": "Abfallart"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "12-1"
-    },
-    {
-      "path": "13-2/data.csv",
-      "name": "13-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Sektoren",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Haushalte",
-                "Industrie",
-                "GHD",
-                "Verkehr",
-                "Gesamtemissionen",
-                "GHD - Stadtverwaltung Ingolstadt",
-                ""
-              ]
-            },
-            "title": "Sektoren"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "13-2"
-    },
-    {
-      "path": "17-2/data.csv",
-      "name": "17-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "17-2"
-    },
-    {
-      "path": "11-11/data.csv",
-      "name": "11-11",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-11"
-    },
-    {
-      "path": "3-12/data.csv",
-      "name": "3-12",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Geschlecht / Herkunft",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "männlich",
-                "weiblich",
-                "mit Migrationshintergrund",
-                "ohne Migrationshintergrund",
-                ""
-              ]
-            },
-            "title": "Geschlecht / Herkunft"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "3-12"
-    },
-    {
-      "path": "8-5/data.csv",
-      "name": "8-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "8-5"
     },
     {
       "path": "7-1/data.csv",
@@ -534,8 +637,8 @@
       "title": "7-1"
     },
     {
-      "path": "16-7/data.csv",
-      "name": "16-7",
+      "path": "9-6/data.csv",
+      "name": "9-6",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -549,97 +652,17 @@
             "title": "Jahr"
           },
           {
-            "name": "Wahl",
+            "name": "Einrichtung",
             "type": "string",
             "constraints": {
               "enum": [
-                "Kommunalwahl",
-                "Bundestagswahl",
-                "Landtagswahl",
-                "Europawahl",
-                ""
-              ]
-            },
-            "title": "Wahl"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "16-7"
-    },
-    {
-      "path": "10-2/data.csv",
-      "name": "10-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Art der Diskriminierung",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "ethnische Herkunft / rassistische Gründe",
-                "Geschlecht",
-                "Religion / Weltanschauung",
-                "Behinderung / Beeinträchtigung",
-                "Äußeres",
-                "Queer / Geschlechtsidentität / sexuelle Orientierung",
-                "Alter",
+                "KU-Eichstätt-Ingolstadt",
+                "TH Ingolstadt",
                 "Gesamt",
                 ""
               ]
             },
-            "title": "Art der Diskriminierung"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "10-2"
-    },
-    {
-      "path": "6-3/data.csv",
-      "name": "6-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Ingolstadt",
-                "Neuburg-Schrobenhausen",
-                "Eichstätt",
-                ""
-              ]
-            },
-            "title": "Region"
+            "title": "Einrichtung"
           },
           {
             "name": "Value",
@@ -648,16 +671,16 @@
           }
         ]
       },
-      "title": "6-3"
+      "title": "9-6"
     },
     {
-      "path": "15-4/data.csv",
-      "name": "15-4",
+      "path": "10-8/data.csv",
+      "name": "10-8",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "iso8859-9",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -666,17 +689,18 @@
             "title": "Jahr"
           },
           {
-            "name": "Ausgleichsflächen",
+            "name": "Schulart",
             "type": "string",
             "constraints": {
               "enum": [
-                "Gartenamt",
-                "Forstamt",
-                "Gesamt",
+                "Grundschule",
+                "Mittelschule",
+                "Realschule",
+                "Gymnasium",
                 ""
               ]
             },
-            "title": "Ausgleichsflächen"
+            "title": "Schulart"
           },
           {
             "name": "Value",
@@ -685,700 +709,7 @@
           }
         ]
       },
-      "title": "15-4"
-    },
-    {
-      "path": "5-1/data.csv",
-      "name": "5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "5-1"
-    },
-    {
-      "path": "4-9/data.csv",
-      "name": "4-9",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "iso8859-9",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Ingolstadt",
-                "Eichstätt",
-                "Neuburg Schrobenhausen",
-                "Pfaffenhofen an der Ilm",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "4-9"
-    },
-    {
-      "path": "3-7/data.csv",
-      "name": "3-7",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Geschlecht",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "gesamt",
-                "männlich",
-                "weiblich",
-                ""
-              ]
-            },
-            "title": "Geschlecht"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "3-7"
-    },
-    {
-      "path": "11-9/data.csv",
-      "name": "11-9",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Flächenart",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Siedlungs- und Verkehrsfläche",
-                "Vegetation",
-                ""
-              ]
-            },
-            "title": "Flächenart"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-9"
-    },
-    {
-      "path": "5-3/data.csv",
-      "name": "5-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Frauenanteil",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Verwaltung",
-                "Stadtrat",
-                ""
-              ]
-            },
-            "title": "Frauenanteil"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "5-3"
-    },
-    {
-      "path": "6-2/data.csv",
-      "name": "6-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "6-2"
-    },
-    {
-      "path": "4-12/data.csv",
-      "name": "4-12",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Förderart",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Institutionelle Förderung",
-                "Projektförderung",
-                "Mietzuschüsse",
-                "kirchliche Einrichtungen",
-                "Trachtenvereine",
-                "kirchliche Büchereien",
-                "gesamt",
-                ""
-              ]
-            },
-            "title": "Förderart"
-          },
-          {
-            "name": "Value",
-            "type": "string",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "4-12"
-    },
-    {
-      "path": "10-6/data.csv",
-      "name": "10-6",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Geschlecht",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "männlich",
-                "weiblich",
-                "gesamt",
-                ""
-              ]
-            },
-            "title": "Geschlecht"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "10-6"
-    },
-    {
-      "path": "8-2/data.csv",
-      "name": "8-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Beschäftigtenquote",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Frauen",
-                "Männer",
-                "Deutsch",
-                "Nicht-Deutsch",
-                ""
-              ]
-            },
-            "title": "Beschäftigtenquote"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "8-2"
-    },
-    {
-      "path": "9-2/data.csv",
-      "name": "9-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Breitbandversorgung",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Ingolstadt",
-                "Freistaat Bayern",
-                "Bundesrepublik Deutschland",
-                ""
-              ]
-            },
-            "title": "Breitbandversorgung"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "9-2"
-    },
-    {
-      "path": "11-8/data.csv",
-      "name": "11-8",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Flächenart",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Inanspruchnahme Siedlungs-und Verkehrsfläche",
-                "Inanspruchnahme Vegetation",
-                "Neuinanspruchnahme Siedlungs- und Verkehrsfläche",
-                "Neuinanspruchnahme Vegetation",
-                ""
-              ]
-            },
-            "title": "Flächenart"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-8"
-    },
-    {
-      "path": "8-8/data.csv",
-      "name": "8-8",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Herkunft",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "EU/EWR-Bürger",
-                "Nicht-EU-Bürger",
-                "gesamt",
-                ""
-              ]
-            },
-            "title": "Herkunft"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "8-8"
-    },
-    {
-      "path": "3-4/data.csv",
-      "name": "3-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Fachärzte",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "allgemeine fachärztliche Versorgung",
-                "spezialisierte fachärztliche Versorgung",
-                "gesamt",
-                ""
-              ]
-            },
-            "title": "Fachärzte"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "3-4"
-    },
-    {
-      "path": "11-7/data.csv",
-      "name": "11-7",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Neue Wohngebäude",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "gesamt",
-                "Fernwärme",
-                "Geothermie",
-                "Umweltthermie",
-                "Solarthermie",
-                "Holz",
-                "Biomasse",
-                ""
-              ]
-            },
-            "title": "Neue Wohngebäude"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-7"
-    },
-    {
-      "path": "10-4/data.csv",
-      "name": "10-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Abschlussart nach Nationalität",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Deutsche - ohne berufl. Ausbildungsabschluss",
-                "Deutsche - mit anerkanntem Berufsabschluss",
-                "Deutsche - mit akademischem Abschluss",
-                "Deutsche - gesamt mit und ohne Abschluss",
-                "Ausländer - ohne berufl. Ausbildungsabschluss",
-                "Ausländer - mit anerkanntem Berufsabschluss",
-                "Ausländer - mit akademischem Abschluss",
-                "Ausländer - gesamt mit und ohne Abschluss",
-                "Alle - ohne berufl. Ausbildungsabschluss",
-                "Alle - mit anerkanntem Berufsabschluss",
-                "Alle - mit akademischem Abschluss",
-                "Alle - gesamt mit und ohne Abschluss",
-                ""
-              ]
-            },
-            "title": "Abschlussart nach Nationalität"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "10-4"
-    },
-    {
-      "path": "9-3/data.csv",
-      "name": "9-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "9-3"
-    },
-    {
-      "path": "10-7/data.csv",
-      "name": "10-7",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "10-7"
-    },
-    {
-      "path": "11-17/data.csv",
-      "name": "11-17",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Modal Split",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "zu Fuß",
-                "Fahrrad",
-                "MIV",
-                "ÖV",
-                ""
-              ]
-            },
-            "title": "Modal Split"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-17"
-    },
-    {
-      "path": "10-1/data.csv",
-      "name": "10-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "10-1"
-    },
-    {
-      "path": "1-7/data.csv",
-      "name": "1-7",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Alleinerziehende",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Leistungsbezieher/-innen",
-                "gesamt",
-                ""
-              ]
-            },
-            "title": "Alleinerziehende"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "1-7"
+      "title": "10-8"
     },
     {
       "path": "10-5/data.csv",
@@ -1415,6 +746,67 @@
         ]
       },
       "title": "10-5"
+    },
+    {
+      "path": "9-7/data.csv",
+      "name": "9-7",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "9-7"
+    },
+    {
+      "path": "15-5/data.csv",
+      "name": "15-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Waldflächen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Bilanz",
+                "Abgänge",
+                "Zugänge",
+                ""
+              ]
+            },
+            "title": "Waldflächen"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "15-5"
     },
     {
       "path": "11-16/data.csv",
@@ -1464,8 +856,8 @@
       "title": "11-16"
     },
     {
-      "path": "4-6/data.csv",
-      "name": "4-6",
+      "path": "11-3/data.csv",
+      "name": "11-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1479,53 +871,29 @@
             "title": "Jahr"
           },
           {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "4-6"
-    },
-    {
-      "path": "4-10/data.csv",
-      "name": "4-10",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Nutzer",
+            "name": "Wohnungen",
             "type": "string",
             "constraints": {
               "enum": [
-                "KiTas",
-                "Eltern",
+                "barrierefreie Wohnungen der GWG",
+                "Wohnungen in Ingolstadt gesamt",
                 ""
               ]
             },
-            "title": "Nutzer"
+            "title": "Wohnungen"
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]
       },
-      "title": "4-10"
+      "title": "11-3"
     },
     {
-      "path": "11-10/data.csv",
-      "name": "11-10",
+      "path": "5-3/data.csv",
+      "name": "5-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1539,17 +907,54 @@
             "title": "Jahr"
           },
           {
-            "name": "Lärmbelastete Fläche",
+            "name": "Frauenanteil",
             "type": "string",
             "constraints": {
               "enum": [
-                "über 55 dB",
-                "über 65 dB",
-                "über 75 dB",
+                "Verwaltung",
+                "Stadtrat",
                 ""
               ]
             },
-            "title": "Lärmbelastete Fläche"
+            "title": "Frauenanteil"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "5-3"
+    },
+    {
+      "path": "8-2/data.csv",
+      "name": "8-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Beschäftigtenquote",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Frauen",
+                "Männer",
+                "Deutsch",
+                "Nicht-Deutsch",
+                ""
+              ]
+            },
+            "title": "Beschäftigtenquote"
           },
           {
             "name": "Value",
@@ -1558,7 +963,789 @@
           }
         ]
       },
-      "title": "11-10"
+      "title": "8-2"
+    },
+    {
+      "path": "11-19/data.csv",
+      "name": "11-19",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Kleingartenanlagen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Parzellen",
+                "gesamt",
+                ""
+              ]
+            },
+            "title": "Kleingartenanlagen"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "11-19"
+    },
+    {
+      "path": "16-6/data.csv",
+      "name": "16-6",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "16-6"
+    },
+    {
+      "path": "10-1/data.csv",
+      "name": "10-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "10-1"
+    },
+    {
+      "path": "11-1/data.csv",
+      "name": "11-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Antriebsart",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Benzin",
+                "Diesel",
+                "Gas",
+                "Hybrid",
+                "Elektro",
+                ""
+              ]
+            },
+            "title": "Antriebsart"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "11-1"
+    },
+    {
+      "path": "1-5/data.csv",
+      "name": "1-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Quote",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SGB II",
+                "SGB XII",
+                ""
+              ]
+            },
+            "title": "Quote"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "1-5"
+    },
+    {
+      "path": "4-5/data.csv",
+      "name": "4-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Träger",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "gesamt",
+                "freie Trägerschaft",
+                "städtische Trägerschaft",
+                ""
+              ]
+            },
+            "title": "Träger"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "4-5"
+    },
+    {
+      "path": "6-2/data.csv",
+      "name": "6-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "6-2"
+    },
+    {
+      "path": "10-4/data.csv",
+      "name": "10-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Abschlussart nach Nationalität",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Deutsche - ohne berufl. Ausbildungsabschluss",
+                "Deutsche - mit anerkanntem Berufsabschluss",
+                "Deutsche - mit akademischem Abschluss",
+                "Deutsche - gesamt mit und ohne Abschluss",
+                "Ausländer - ohne berufl. Ausbildungsabschluss",
+                "Ausländer - mit anerkanntem Berufsabschluss",
+                "Ausländer - mit akademischem Abschluss",
+                "Ausländer - gesamt mit und ohne Abschluss",
+                "Alle - ohne berufl. Ausbildungsabschluss",
+                "Alle - mit anerkanntem Berufsabschluss",
+                "Alle - mit akademischem Abschluss",
+                "Alle - gesamt mit und ohne Abschluss",
+                ""
+              ]
+            },
+            "title": "Abschlussart nach Nationalität"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "10-4"
+    },
+    {
+      "path": "1-7/data.csv",
+      "name": "1-7",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Alleinerziehende",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Leistungsbezieher/-innen",
+                "gesamt",
+                ""
+              ]
+            },
+            "title": "Alleinerziehende"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "1-7"
+    },
+    {
+      "path": "3-11/data.csv",
+      "name": "3-11",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Herkunft",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Mit Migrationshintegrund",
+                "Ohne Migrationshintergrund",
+                ""
+              ]
+            },
+            "title": "Herkunft"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "3-11"
+    },
+    {
+      "path": "14-1/data.csv",
+      "name": "14-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "14-1"
+    },
+    {
+      "path": "10-2/data.csv",
+      "name": "10-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Art der Diskriminierung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ethnische Herkunft / rassistische Gründe",
+                "Geschlecht",
+                "Religion / Weltanschauung",
+                "Behinderung / Beeinträchtigung",
+                "Äußeres",
+                "Queer / Geschlechtsidentität / sexuelle Orientierung",
+                "Alter",
+                "Gesamt",
+                ""
+              ]
+            },
+            "title": "Art der Diskriminierung"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "10-2"
+    },
+    {
+      "path": "11-2/data.csv",
+      "name": "11-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Barrierefreie und inklusive Mobilitätsangebot",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "gesamt barrierefreie Parkplätze",
+                "Ampeln mit Sensoren",
+                "Ampeln teilausgestattet mit Sensoren",
+                "Bushaltestellen DFI inkl. akustische Ansagen",
+                "Blindenleitsysteme",
+                "städtische barrierefreie Parkplätze",
+                "Eltern-Kind-Parkplätze",
+                "Bushaltestellen taktile Ausstattung",
+                ""
+              ]
+            },
+            "title": "Barrierefreie und inklusive Mobilitätsangebot"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "11-2"
+    },
+    {
+      "path": "15-3/data.csv",
+      "name": "15-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Flächen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Vertragsnaturschutzprogramm",
+                "Grünlandfläche Gesamt",
+                ""
+              ]
+            },
+            "title": "Flächen"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "15-3"
+    },
+    {
+      "path": "17-3/data.csv",
+      "name": "17-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Einrichtung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Integrationsbeauftragte",
+                "VHS",
+                "Stadtbücherei",
+                "Kulturamt",
+                "gesamt",
+                ""
+              ]
+            },
+            "title": "Einrichtung"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "17-3"
+    },
+    {
+      "path": "10-10/data.csv",
+      "name": "10-10",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "10-10"
+    },
+    {
+      "path": "11-15/data.csv",
+      "name": "11-15",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ingolstadt",
+                "Bayern",
+                ""
+              ]
+            },
+            "title": "Region"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "11-15"
+    },
+    {
+      "path": "15-1/data.csv",
+      "name": "15-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "15-1"
+    },
+    {
+      "path": "15-2/data.csv",
+      "name": "15-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "mac-roman",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Fläche",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Biotop",
+                "gesamt",
+                ""
+              ]
+            },
+            "title": "Fläche"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "15-2"
+    },
+    {
+      "path": "8-8/data.csv",
+      "name": "8-8",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Herkunft",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "EU/EWR-Bürger",
+                "Nicht-EU-Bürger",
+                "gesamt",
+                ""
+              ]
+            },
+            "title": "Herkunft"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "8-8"
+    },
+    {
+      "path": "8-6/data.csv",
+      "name": "8-6",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "sv-Beschäftigte",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Männer",
+                "Frauen",
+                "Deutsche",
+                "Nicht-Deutsche",
+                "über 55 Jahre",
+                "mit Berufsabschluss",
+                "mit akademischen Abschluss",
+                "gesamt",
+                ""
+              ]
+            },
+            "title": "sv-Beschäftigte"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "8-6"
+    },
+    {
+      "path": "12-4/data.csv",
+      "name": "12-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "12-4"
+    },
+    {
+      "path": "11-8/data.csv",
+      "name": "11-8",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Flächenart",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Inanspruchnahme Siedlungs-und Verkehrsfläche",
+                "Inanspruchnahme Vegetation",
+                "Neuinanspruchnahme Siedlungs- und Verkehrsfläche",
+                "Neuinanspruchnahme Vegetation",
+                ""
+              ]
+            },
+            "title": "Flächenart"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "11-8"
     },
     {
       "path": "3-6/data.csv",
@@ -1604,45 +1791,8 @@
       "title": "3-6"
     },
     {
-      "path": "4-8/data.csv",
-      "name": "4-8",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "iso8859-9",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Kitaplätze",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0-3 Jahre",
-                "3-6 Jahre",
-                "Gesamt",
-                ""
-              ]
-            },
-            "title": "Kitaplätze"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "4-8"
-    },
-    {
-      "path": "8-6/data.csv",
-      "name": "8-6",
+      "path": "3-1/data.csv",
+      "name": "3-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1656,22 +1806,17 @@
             "title": "Jahr"
           },
           {
-            "name": "sv-Beschäftigte",
+            "name": "Pflegeangebot",
             "type": "string",
             "constraints": {
               "enum": [
-                "Männer",
-                "Frauen",
-                "Deutsche",
-                "Nicht-Deutsche",
-                "über 55 Jahre",
-                "mit Berufsabschluss",
-                "mit akademischen Abschluss",
-                "gesamt",
+                "Kurzzeitpflegeplätze",
+                "ambulante Pflegeangebote",
+                "Langzeitpflegeplätze",
                 ""
               ]
             },
-            "title": "sv-Beschäftigte"
+            "title": "Pflegeangebot"
           },
           {
             "name": "Value",
@@ -1680,11 +1825,11 @@
           }
         ]
       },
-      "title": "8-6"
+      "title": "3-1"
     },
     {
-      "path": "14-1/data.csv",
-      "name": "14-1",
+      "path": "1-8/data.csv",
+      "name": "1-8",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1696,6 +1841,22 @@
             "name": "Year",
             "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Deutschland",
+                "Bayern",
+                "Ingolstadt",
+                "Landkreis Eichstätt",
+                "Landkreis Neuburg-Schrobenhausen",
+                "Landkreis Pfaffenhofen a. d. Ilm",
+                ""
+              ]
+            },
+            "title": "Region"
           },
           {
             "name": "Value",
@@ -1704,183 +1865,7 @@
           }
         ]
       },
-      "title": "14-1"
-    },
-    {
-      "path": "11-2/data.csv",
-      "name": "11-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Barrierefreie und inklusive Mobilitätsangebot",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "gesamt barrierefreie Parkplätze",
-                "Ampeln mit Sensoren",
-                "Ampeln teilausgestattet mit Sensoren",
-                "Bushaltestellen DFI inkl. akustische Ansagen",
-                "Blindenleitsysteme",
-                "städtische barrierefreie Parkplätze",
-                "Eltern-Kind-Parkplätze",
-                "Bushaltestellen taktile Ausstattung",
-                ""
-              ]
-            },
-            "title": "Barrierefreie und inklusive Mobilitätsangebot"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-2"
-    },
-    {
-      "path": "10-3/data.csv",
-      "name": "10-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Herkunft",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Mit Migrationshintergrund",
-                "Ohne Migrationshintergrund",
-                ""
-              ]
-            },
-            "title": "Herkunft"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "10-3"
-    },
-    {
-      "path": "1-3/data.csv",
-      "name": "1-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "1-3"
-    },
-    {
-      "path": "4-3/data.csv",
-      "name": "4-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Träger",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "gesamt",
-                "freie Trägerschaft",
-                "städtische Trägerschaft",
-                ""
-              ]
-            },
-            "title": "Träger"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "4-3"
-    },
-    {
-      "path": "4-5/data.csv",
-      "name": "4-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Träger",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "gesamt",
-                "freie Trägerschaft",
-                "städtische Trägerschaft",
-                ""
-              ]
-            },
-            "title": "Träger"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "4-5"
+      "title": "1-8"
     },
     {
       "path": "7-3/data.csv",
@@ -1920,8 +1905,8 @@
       "title": "7-3"
     },
     {
-      "path": "16-6/data.csv",
-      "name": "16-6",
+      "path": "11-14/data.csv",
+      "name": "11-14",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1941,193 +1926,11 @@
           }
         ]
       },
-      "title": "16-6"
+      "title": "11-14"
     },
     {
-      "path": "10-11/data.csv",
-      "name": "10-11",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Muttersprache",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "deutsch",
-                "nicht-deutsch",
-                ""
-              ]
-            },
-            "title": "Muttersprache"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "10-11"
-    },
-    {
-      "path": "5-2/data.csv",
-      "name": "5-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "5-2"
-    },
-    {
-      "path": "4-4/data.csv",
-      "name": "4-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "4-4"
-    },
-    {
-      "path": "6-4/data.csv",
-      "name": "6-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Kanalsystem",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Mischwasserkanalisation",
-                "Trennkanalisation",
-                ""
-              ]
-            },
-            "title": "Kanalsystem"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "6-4"
-    },
-    {
-      "path": "16-4/data.csv",
-      "name": "16-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "16-4"
-    },
-    {
-      "path": "3-13/data.csv",
-      "name": "3-13",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Geschlecht / Herkunft",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "männlich",
-                "weiblich",
-                "mit Migrationshintergrund",
-                "ohne Migrationshintergrund",
-                ""
-              ]
-            },
-            "title": "Geschlecht / Herkunft"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "3-13"
-    },
-    {
-      "path": "16-3/data.csv",
-      "name": "16-3",
+      "path": "8-1/data.csv",
+      "name": "8-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2147,148 +1950,11 @@
           }
         ]
       },
-      "title": "16-3"
+      "title": "8-1"
     },
     {
-      "path": "3-10/data.csv",
-      "name": "3-10",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Bio-Lebensmittel",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Fleisch und Wurstwaren",
-                "Sonstige Lebensmittel",
-                ""
-              ]
-            },
-            "title": "Bio-Lebensmittel"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "3-10"
-    },
-    {
-      "path": "1-6/data.csv",
-      "name": "1-6",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "1-6"
-    },
-    {
-      "path": "4-1/data.csv",
-      "name": "4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Einrichtung",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "THI - deutsche Studierende",
-                "THI - ausländische Studierende",
-                "KU - deutsche Studierende",
-                "KU - ausländische Studierende",
-                "gesamt",
-                ""
-              ]
-            },
-            "title": "Einrichtung"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "4-1"
-    },
-    {
-      "path": "8-4/data.csv",
-      "name": "8-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Langzeitleistungsbezieher und Langzeitarbeitslos",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Langzeitleistungsbezieher Männer",
-                "Langzeitleistungsbezieher Frauen",
-                "Langzeitarbeitslos Männer",
-                "Langzeitarbeitslos Frauen",
-                ""
-              ]
-            },
-            "title": "Langzeitleistungsbezieher und Langzeitarbeitslos"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "8-4"
-    },
-    {
-      "path": "13-3/data.csv",
-      "name": "13-3",
+      "path": "17-2/data.csv",
+      "name": "17-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2308,11 +1974,35 @@
           }
         ]
       },
-      "title": "13-3"
+      "title": "17-2"
     },
     {
-      "path": "3-3/data.csv",
-      "name": "3-3",
+      "path": "13-1/data.csv",
+      "name": "13-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "13-1"
+    },
+    {
+      "path": "15-7/data.csv",
+      "name": "15-7",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2330,10 +2020,8 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Bayern",
                 "Ingolstadt",
-                "Landkreis Eichstätt",
-                "Landkreis-Neuburg Schrobenhausen",
-                "Landkreis Pfaffenhofen a. d. Ilm",
                 ""
               ]
             },
@@ -2346,11 +2034,11 @@
           }
         ]
       },
-      "title": "3-3"
+      "title": "15-7"
     },
     {
-      "path": "11-3/data.csv",
-      "name": "11-3",
+      "path": "4-10/data.csv",
+      "name": "4-10",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2364,55 +2052,16 @@
             "title": "Jahr"
           },
           {
-            "name": "Wohnungen",
+            "name": "Nutzer",
             "type": "string",
             "constraints": {
               "enum": [
-                "barrierefreie Wohnungen der GWG",
-                "Wohnungen in Ingolstadt gesamt",
+                "KiTas",
+                "Eltern",
                 ""
               ]
             },
-            "title": "Wohnungen"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-3"
-    },
-    {
-      "path": "1-1/data.csv",
-      "name": "1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "euc_kr",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Herkunft und Geschlecht",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Deutsche",
-                "Ausländer",
-                "männlich",
-                "weiblich",
-                "gesamt",
-                ""
-              ]
-            },
-            "title": "Herkunft und Geschlecht"
+            "title": "Nutzer"
           },
           {
             "name": "Value",
@@ -2421,11 +2070,11 @@
           }
         ]
       },
-      "title": "1-1"
+      "title": "4-10"
     },
     {
-      "path": "3-11/data.csv",
-      "name": "3-11",
+      "path": "1-9/data.csv",
+      "name": "1-9",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2439,60 +2088,17 @@
             "title": "Jahr"
           },
           {
-            "name": "Herkunft",
+            "name": "Art des Wohngeldes",
             "type": "string",
             "constraints": {
               "enum": [
-                "Mit Migrationshintegrund",
-                "Ohne Migrationshintergrund",
-                ""
-              ]
-            },
-            "title": "Herkunft"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "3-11"
-    },
-    {
-      "path": "16-2/data.csv",
-      "name": "16-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Beteiligungsart",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Bürgerumfragen",
-                "Bürgerversammlungen",
-                "Kinder- und Jugendversammlungen",
-                "Infoveranstaltungen",
-                "sonstige Bürgerbeteiligung",
-                "BZA-Sitzungen",
-                "OB im BZA",
-                "OB Bürgersprechstunde",
-                "Landesgartenschau",
+                "Mietzuschuss",
+                "Lastenzuschuss",
                 "Gesamt",
                 ""
               ]
             },
-            "title": "Beteiligungsart"
+            "title": "Art des Wohngeldes"
           },
           {
             "name": "Value",
@@ -2501,48 +2107,11 @@
           }
         ]
       },
-      "title": "16-2"
+      "title": "1-9"
     },
     {
-      "path": "9-1/data.csv",
-      "name": "9-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "mac-roman",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Gründungssaldo",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Anmeldungen",
-                "Abmeldungen",
-                "Saldo",
-                ""
-              ]
-            },
-            "title": "Gründungssaldo"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "9-1"
-    },
-    {
-      "path": "4-11/data.csv",
-      "name": "4-11",
+      "path": "11-17/data.csv",
+      "name": "11-17",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2556,25 +2125,64 @@
             "title": "Jahr"
           },
           {
-            "name": "Zugangspunkte",
+            "name": "Modal Split",
             "type": "string",
             "constraints": {
               "enum": [
-                "Wlan",
-                "PCs",
+                "zu Fuß",
+                "Fahrrad",
+                "MIV",
+                "ÖV",
                 ""
               ]
             },
-            "title": "Zugangspunkte"
+            "title": "Modal Split"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
       },
-      "title": "4-11"
+      "title": "11-17"
+    },
+    {
+      "path": "3-7/data.csv",
+      "name": "3-7",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Geschlecht",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "gesamt",
+                "männlich",
+                "weiblich",
+                ""
+              ]
+            },
+            "title": "Geschlecht"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "3-7"
     },
     {
       "path": "3-2/data.csv",
@@ -2614,284 +2222,6 @@
         ]
       },
       "title": "3-2"
-    },
-    {
-      "path": "15-3/data.csv",
-      "name": "15-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Flächen",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Vertragsnaturschutzprogramm",
-                "Grünlandfläche Gesamt",
-                ""
-              ]
-            },
-            "title": "Flächen"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "15-3"
-    },
-    {
-      "path": "11-19/data.csv",
-      "name": "11-19",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Kleingartenanlagen",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Parzellen",
-                "gesamt",
-                ""
-              ]
-            },
-            "title": "Kleingartenanlagen"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-19"
-    },
-    {
-      "path": "1-5/data.csv",
-      "name": "1-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Quote",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "SGB II",
-                "SGB XII",
-                ""
-              ]
-            },
-            "title": "Quote"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "1-5"
-    },
-    {
-      "path": "9-6/data.csv",
-      "name": "9-6",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Einrichtung",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "KU-Eichstätt-Ingolstadt",
-                "TH Ingolstadt",
-                "Gesamt",
-                ""
-              ]
-            },
-            "title": "Einrichtung"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "9-6"
-    },
-    {
-      "path": "6-1/data.csv",
-      "name": "6-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "sanitäre Einrichtungen",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "barrierefrei gesamt",
-                "städtisch und barrierefrei",
-                "städtisch gesamt",
-                ""
-              ]
-            },
-            "title": "sanitäre Einrichtungen"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "6-1"
-    },
-    {
-      "path": "17-1/data.csv",
-      "name": "17-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "17-1"
-    },
-    {
-      "path": "14-2/data.csv",
-      "name": "14-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Badesee",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Baggersee",
-                "Auwaldsee",
-                ""
-              ]
-            },
-            "title": "Badesee"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "14-2"
-    },
-    {
-      "path": "11-5/data.csv",
-      "name": "11-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Verunglückte im Verkehr",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Getötete oder schwer verletzte",
-                "Personenschaden",
-                ""
-              ]
-            },
-            "title": "Verunglückte im Verkehr"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-5"
     },
     {
       "path": "3-5/data.csv",
@@ -2975,8 +2305,8 @@
       "title": "3-14"
     },
     {
-      "path": "11-15/data.csv",
-      "name": "11-15",
+      "path": "5-2/data.csv",
+      "name": "5-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2990,16 +2320,48 @@
             "title": "Jahr"
           },
           {
-            "name": "Region",
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "5-2"
+    },
+    {
+      "path": "16-2/data.csv",
+      "name": "16-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Beteiligungsart",
             "type": "string",
             "constraints": {
               "enum": [
-                "Ingolstadt",
-                "Bayern",
+                "Bürgerumfragen",
+                "Bürgerversammlungen",
+                "Kinder- und Jugendversammlungen",
+                "Infoveranstaltungen",
+                "sonstige Bürgerbeteiligung",
+                "BZA-Sitzungen",
+                "OB im BZA",
+                "OB Bürgersprechstunde",
+                "Landesgartenschau",
+                "Gesamt",
                 ""
               ]
             },
-            "title": "Region"
+            "title": "Beteiligungsart"
           },
           {
             "name": "Value",
@@ -3008,632 +2370,7 @@
           }
         ]
       },
-      "title": "11-15"
-    },
-    {
-      "path": "15-7/data.csv",
-      "name": "15-7",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Bayern",
-                "Ingolstadt",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "15-7"
-    },
-    {
-      "path": "8-1/data.csv",
-      "name": "8-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "8-1"
-    },
-    {
-      "path": "11-6/data.csv",
-      "name": "11-6",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Spiel-und Freizeitanlagen",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "barrierefrei zugänglich",
-                "nicht barrierefrei zugänglich",
-                ""
-              ]
-            },
-            "title": "Spiel-und Freizeitanlagen"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-6"
-    },
-    {
-      "path": "15-1/data.csv",
-      "name": "15-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "15-1"
-    },
-    {
-      "path": "12-4/data.csv",
-      "name": "12-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "12-4"
-    },
-    {
-      "path": "3-1/data.csv",
-      "name": "3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Pflegeangebot",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Kurzzeitpflegeplätze",
-                "ambulante Pflegeangebote",
-                "Langzeitpflegeplätze",
-                ""
-              ]
-            },
-            "title": "Pflegeangebot"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "3-1"
-    },
-    {
-      "path": "15-5/data.csv",
-      "name": "15-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Waldflächen",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Bilanz",
-                "Abgänge",
-                "Zugänge",
-                ""
-              ]
-            },
-            "title": "Waldflächen"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "15-5"
-    },
-    {
-      "path": "4-2/data.csv",
-      "name": "4-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "4-2"
-    },
-    {
-      "path": "11-13/data.csv",
-      "name": "11-13",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-13"
-    },
-    {
-      "path": "11-18/data.csv",
-      "name": "11-18",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "euc_jp",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Zielgruppe",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "alle Zielgruppen",
-                "speziell für Senioren",
-                "speziell für Kinder und Jugendliche",
-                "speziell für Eltern und Familie",
-                "speziell für Menschen mit Behinderung",
-                ""
-              ]
-            },
-            "title": "Zielgruppe"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-18"
-    },
-    {
-      "path": "11-14/data.csv",
-      "name": "11-14",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-14"
-    },
-    {
-      "path": "16-1/data.csv",
-      "name": "16-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "16-1"
-    },
-    {
-      "path": "9-7/data.csv",
-      "name": "9-7",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "9-7"
-    },
-    {
-      "path": "15-6/data.csv",
-      "name": "15-6",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Bayern",
-                "Ingolstadt",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "15-6"
-    },
-    {
-      "path": "1-8/data.csv",
-      "name": "1-8",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Deutschland",
-                "Bayern",
-                "Ingolstadt",
-                "Landkreis Eichstätt",
-                "Landkreis Neuburg-Schrobenhausen",
-                "Landkreis Pfaffenhofen a. d. Ilm",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "1-8"
-    },
-    {
-      "path": "1-4-2/data.csv",
-      "name": "1-4-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Empfänger/-innen SGB II",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Männer",
-                "Frauen",
-                "Kinder unter 15 Jahre",
-                ""
-              ]
-            },
-            "title": "Empfänger/-innen SGB II"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "1-4-2"
-    },
-    {
-      "path": "8-3/data.csv",
-      "name": "8-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Ingolstadt",
-                "Bayern",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "8-3"
-    },
-    {
-      "path": "11-1/data.csv",
-      "name": "11-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Antriebsart",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Benzin",
-                "Diesel",
-                "Gas",
-                "Hybrid",
-                "Elektro",
-                ""
-              ]
-            },
-            "title": "Antriebsart"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-1"
-    },
-    {
-      "path": "15-2/data.csv",
-      "name": "15-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "mac-roman",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Fläche",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Biotop",
-                "gesamt",
-                ""
-              ]
-            },
-            "title": "Fläche"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "15-2"
-    },
-    {
-      "path": "13-1/data.csv",
-      "name": "13-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "13-1"
+      "title": "16-2"
     },
     {
       "path": "11-12/data.csv",
@@ -3670,6 +2407,881 @@
         ]
       },
       "title": "11-12"
+    },
+    {
+      "path": "11-7/data.csv",
+      "name": "11-7",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Neue Wohngebäude",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "gesamt",
+                "Fernwärme",
+                "Geothermie",
+                "Umweltthermie",
+                "Solarthermie",
+                "Holz",
+                "Biomasse",
+                ""
+              ]
+            },
+            "title": "Neue Wohngebäude"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "11-7"
+    },
+    {
+      "path": "11-4/data.csv",
+      "name": "11-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "11-4"
+    },
+    {
+      "path": "8-7/data.csv",
+      "name": "8-7",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Herkunft",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Gesamt",
+                "Deutsch",
+                "Nicht-Deutsch",
+                ""
+              ]
+            },
+            "title": "Herkunft"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "8-7"
+    },
+    {
+      "path": "3-12/data.csv",
+      "name": "3-12",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Geschlecht / Herkunft",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "männlich",
+                "weiblich",
+                "mit Migrationshintergrund",
+                "ohne Migrationshintergrund",
+                ""
+              ]
+            },
+            "title": "Geschlecht / Herkunft"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "3-12"
+    },
+    {
+      "path": "12-3/data.csv",
+      "name": "12-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Zertifizierungsart",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Fairtrade-School",
+                "Umweltschule",
+                ""
+              ]
+            },
+            "title": "Zertifizierungsart"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "12-3"
+    },
+    {
+      "path": "16-7/data.csv",
+      "name": "16-7",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Wahl",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Kommunalwahl",
+                "Bundestagswahl",
+                "Landtagswahl",
+                "Europawahl",
+                ""
+              ]
+            },
+            "title": "Wahl"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "16-7"
+    },
+    {
+      "path": "12-5/data.csv",
+      "name": "12-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Verwertungsquoten Deutschland",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Quotenvorgabe in %",
+                "Erreichte Recyclingquote in %",
+                ""
+              ]
+            },
+            "title": "Verwertungsquoten Deutschland"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "12-5"
+    },
+    {
+      "path": "11-5/data.csv",
+      "name": "11-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Verunglückte im Verkehr",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Getötete oder schwer verletzte",
+                "Personenschaden",
+                ""
+              ]
+            },
+            "title": "Verunglückte im Verkehr"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "11-5"
+    },
+    {
+      "path": "9-4/data.csv",
+      "name": "9-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ingolstadt",
+                "Bayern",
+                "Bund",
+                ""
+              ]
+            },
+            "title": "Region"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "9-4"
+    },
+    {
+      "path": "3-3/data.csv",
+      "name": "3-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ingolstadt",
+                "Landkreis Eichstätt",
+                "Landkreis-Neuburg Schrobenhausen",
+                "Landkreis Pfaffenhofen a. d. Ilm",
+                ""
+              ]
+            },
+            "title": "Region"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "3-3"
+    },
+    {
+      "path": "12-6/data.csv",
+      "name": "12-6",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ingolstadt",
+                "Bayern",
+                ""
+              ]
+            },
+            "title": "Region"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "12-6"
+    },
+    {
+      "path": "4-1/data.csv",
+      "name": "4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Einrichtung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "THI - deutsche Studierende",
+                "THI - ausländische Studierende",
+                "KU - deutsche Studierende",
+                "KU - ausländische Studierende",
+                "gesamt",
+                ""
+              ]
+            },
+            "title": "Einrichtung"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "4-1"
+    },
+    {
+      "path": "11-10/data.csv",
+      "name": "11-10",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Lärmbelastete Fläche",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "über 55 dB",
+                "über 65 dB",
+                "über 75 dB",
+                ""
+              ]
+            },
+            "title": "Lärmbelastete Fläche"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "11-10"
+    },
+    {
+      "path": "2-1/data.csv",
+      "name": "2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Weggeworfen in t",
+                "Gerettet in t",
+                "Gerettet anteilig in %",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "2-1"
+    },
+    {
+      "path": "11-13/data.csv",
+      "name": "11-13",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "11-13"
+    },
+    {
+      "path": "16-5/data.csv",
+      "name": "16-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "16-5"
+    },
+    {
+      "path": "4-9/data.csv",
+      "name": "4-9",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "iso8859-9",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ingolstadt",
+                "Eichstätt",
+                "Neuburg Schrobenhausen",
+                "Pfaffenhofen an der Ilm",
+                ""
+              ]
+            },
+            "title": "Region"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "4-9"
+    },
+    {
+      "path": "1-1/data.csv",
+      "name": "1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "euc_kr",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Herkunft und Geschlecht",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Deutsche",
+                "Ausländer",
+                "männlich",
+                "weiblich",
+                "gesamt",
+                ""
+              ]
+            },
+            "title": "Herkunft und Geschlecht"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "1-1"
+    },
+    {
+      "path": "16-4/data.csv",
+      "name": "16-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "16-4"
+    },
+    {
+      "path": "3-8/data.csv",
+      "name": "3-8",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "3-8"
+    },
+    {
+      "path": "13-3/data.csv",
+      "name": "13-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "13-3"
+    },
+    {
+      "path": "8-5/data.csv",
+      "name": "8-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "8-5"
+    },
+    {
+      "path": "4-4/data.csv",
+      "name": "4-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "4-4"
+    },
+    {
+      "path": "4-8/data.csv",
+      "name": "4-8",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "iso8859-9",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Kitaplätze",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0-3 Jahre",
+                "3-6 Jahre",
+                "Gesamt",
+                ""
+              ]
+            },
+            "title": "Kitaplätze"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "4-8"
+    },
+    {
+      "path": "12-1/data.csv",
+      "name": "12-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Abfallart",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Restmüll",
+                "Biomüll",
+                "Papier",
+                "Sperrmüll",
+                "Altholz",
+                "Metallschrott",
+                "Elektrogeräte",
+                "Textilien",
+                "Grüngut",
+                "Bauschutt",
+                "gelber Sack",
+                "Flaschenglas",
+                "gesamt",
+                ""
+              ]
+            },
+            "title": "Abfallart"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "12-1"
+    },
+    {
+      "path": "3-9/data.csv",
+      "name": "3-9",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Geschlecht",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "männlich",
+                "weiblich",
+                ""
+              ]
+            },
+            "title": "Geschlecht"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "3-9"
     },
     {
       "path": "3-15/data.csv",
@@ -3710,8 +3322,143 @@
       "title": "3-15"
     },
     {
-      "path": "3-8/data.csv",
-      "name": "3-8",
+      "path": "4-6/data.csv",
+      "name": "4-6",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "4-6"
+    },
+    {
+      "path": "1-4-2/data.csv",
+      "name": "1-4-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Empfänger/-innen SGB II",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Männer",
+                "Frauen",
+                "Kinder unter 15 Jahre",
+                ""
+              ]
+            },
+            "title": "Empfänger/-innen SGB II"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "1-4-2"
+    },
+    {
+      "path": "9-1/data.csv",
+      "name": "9-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "mac-roman",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Gründungssaldo",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Anmeldungen",
+                "Abmeldungen",
+                "Saldo",
+                ""
+              ]
+            },
+            "title": "Gründungssaldo"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "9-1"
+    },
+    {
+      "path": "9-2/data.csv",
+      "name": "9-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Breitbandversorgung",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ingolstadt",
+                "Freistaat Bayern",
+                "Bundesrepublik Deutschland",
+                ""
+              ]
+            },
+            "title": "Breitbandversorgung"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "9-2"
+    },
+    {
+      "path": "6-5/data.csv",
+      "name": "6-5",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3731,7 +3478,409 @@
           }
         ]
       },
-      "title": "3-8"
+      "title": "6-5"
+    },
+    {
+      "path": "16-3/data.csv",
+      "name": "16-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "16-3"
+    },
+    {
+      "path": "11-9/data.csv",
+      "name": "11-9",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Flächenart",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Siedlungs- und Verkehrsfläche",
+                "Vegetation",
+                ""
+              ]
+            },
+            "title": "Flächenart"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "11-9"
+    },
+    {
+      "path": "10-3/data.csv",
+      "name": "10-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Herkunft",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Mit Migrationshintergrund",
+                "Ohne Migrationshintergrund",
+                ""
+              ]
+            },
+            "title": "Herkunft"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "10-3"
+    },
+    {
+      "path": "10-9/data.csv",
+      "name": "10-9",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "10-9"
+    },
+    {
+      "path": "10-6/data.csv",
+      "name": "10-6",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Geschlecht",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "männlich",
+                "weiblich",
+                "gesamt",
+                ""
+              ]
+            },
+            "title": "Geschlecht"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "10-6"
+    },
+    {
+      "path": "8-3/data.csv",
+      "name": "8-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ingolstadt",
+                "Bayern",
+                ""
+              ]
+            },
+            "title": "Region"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "8-3"
+    },
+    {
+      "path": "6-1/data.csv",
+      "name": "6-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "sanitäre Einrichtungen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "barrierefrei gesamt",
+                "städtisch und barrierefrei",
+                "städtisch gesamt",
+                ""
+              ]
+            },
+            "title": "sanitäre Einrichtungen"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "6-1"
+    },
+    {
+      "path": "3-10/data.csv",
+      "name": "3-10",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Bio-Lebensmittel",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Fleisch und Wurstwaren",
+                "Sonstige Lebensmittel",
+                ""
+              ]
+            },
+            "title": "Bio-Lebensmittel"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "3-10"
+    },
+    {
+      "path": "4-2/data.csv",
+      "name": "4-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "4-2"
+    },
+    {
+      "path": "15-6/data.csv",
+      "name": "15-6",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Bayern",
+                "Ingolstadt",
+                ""
+              ]
+            },
+            "title": "Region"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "15-6"
+    },
+    {
+      "path": "4-7/data.csv",
+      "name": "4-7",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Bayern",
+                "Ingolstadt",
+                ""
+              ]
+            },
+            "title": "Region"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "4-7"
+    },
+    {
+      "path": "13-2/data.csv",
+      "name": "13-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Sektoren",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Haushalte",
+                "Industrie",
+                "GHD",
+                "Verkehr",
+                "Gesamtemissionen",
+                "GHD - Stadtverwaltung Ingolstadt",
+                ""
+              ]
+            },
+            "title": "Sektoren"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "13-2"
     },
     {
       "path": "1-2/data.csv",
@@ -3770,8 +3919,8 @@
       "title": "1-2"
     },
     {
-      "path": "17-3/data.csv",
-      "name": "17-3",
+      "path": "11-11/data.csv",
+      "name": "11-11",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3785,115 +3934,137 @@
             "title": "Jahr"
           },
           {
-            "name": "Einrichtung",
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "11-11"
+    },
+    {
+      "path": "6-4/data.csv",
+      "name": "6-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Kanalsystem",
             "type": "string",
             "constraints": {
               "enum": [
-                "Integrationsbeauftragte",
-                "VHS",
-                "Stadtbücherei",
-                "Kulturamt",
+                "Mischwasserkanalisation",
+                "Trennkanalisation",
+                ""
+              ]
+            },
+            "title": "Kanalsystem"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "6-4"
+    },
+    {
+      "path": "4-11/data.csv",
+      "name": "4-11",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Zugangspunkte",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Wlan",
+                "PCs",
+                ""
+              ]
+            },
+            "title": "Zugangspunkte"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "4-11"
+    },
+    {
+      "path": "17-1/data.csv",
+      "name": "17-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "17-1"
+    },
+    {
+      "path": "4-3/data.csv",
+      "name": "4-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Träger",
+            "type": "string",
+            "constraints": {
+              "enum": [
                 "gesamt",
+                "freie Trägerschaft",
+                "städtische Trägerschaft",
                 ""
               ]
             },
-            "title": "Einrichtung"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "17-3"
-    },
-    {
-      "path": "11-4/data.csv",
-      "name": "11-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "11-4"
-    },
-    {
-      "path": "12-2/data.csv",
-      "name": "12-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Zertifizierung",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Eine-Welt-KiTa",
-                ""
-              ]
-            },
-            "title": "Zertifizierung"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "12-2"
-    },
-    {
-      "path": "9-4/data.csv",
-      "name": "9-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Ingolstadt",
-                "Bayern",
-                "Bund",
-                ""
-              ]
-            },
-            "title": "Region"
+            "title": "Träger"
           },
           {
             "name": "Value",
@@ -3902,11 +4073,71 @@
           }
         ]
       },
-      "title": "9-4"
+      "title": "4-3"
     },
     {
-      "path": "17-4/data.csv",
-      "name": "17-4",
+      "path": "16-1/data.csv",
+      "name": "16-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "16-1"
+    },
+    {
+      "path": "10-11/data.csv",
+      "name": "10-11",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Muttersprache",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "deutsch",
+                "nicht-deutsch",
+                ""
+              ]
+            },
+            "title": "Muttersprache"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "10-11"
+    },
+    {
+      "path": "10-7/data.csv",
+      "name": "10-7",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3926,238 +4157,7 @@
           }
         ]
       },
-      "title": "17-4"
-    },
-    {
-      "path": "12-5/data.csv",
-      "name": "12-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Verwertungsquoten Deutschland",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Quotenvorgabe in %",
-                "Erreichte Recyclingquote in %",
-                ""
-              ]
-            },
-            "title": "Verwertungsquoten Deutschland"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "12-5"
-    },
-    {
-      "path": "1-9/data.csv",
-      "name": "1-9",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Art des Wohngeldes",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Mietzuschuss",
-                "Lastenzuschuss",
-                "Gesamt",
-                ""
-              ]
-            },
-            "title": "Art des Wohngeldes"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "1-9"
-    },
-    {
-      "path": "10-9/data.csv",
-      "name": "10-9",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "10-9"
-    },
-    {
-      "path": "12-6/data.csv",
-      "name": "12-6",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Region",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Ingolstadt",
-                "Bayern",
-                ""
-              ]
-            },
-            "title": "Region"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "12-6"
-    },
-    {
-      "path": "16-5/data.csv",
-      "name": "16-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "16-5"
-    },
-    {
-      "path": "7-2/data.csv",
-      "name": "7-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "iso8859-9",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "kWp",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Zubau",
-                "Gesamtleistung Ingolstadt",
-                "Gesamtleistung städtische Anlagen",
-                ""
-              ]
-            },
-            "title": "kWp"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "7-2"
-    },
-    {
-      "path": "8-7/data.csv",
-      "name": "8-7",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Jahr"
-          },
-          {
-            "name": "Herkunft",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Gesamt",
-                "Deutsch",
-                "Nicht-Deutsch",
-                ""
-              ]
-            },
-            "title": "Herkunft"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "8-7"
+      "title": "10-7"
     }
   ]
 }
