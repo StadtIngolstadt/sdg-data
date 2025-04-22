@@ -15,14 +15,12 @@
             "type": "integer"
           },
           {
-            "name": "Langzeitleistungsbezieher und Langzeitarbeitslos",
+            "name": "Langzeitleistungsbezieher und Langzeitarbeitslose",
             "type": "string",
             "constraints": {
               "enum": [
-                "Langzeitleistungsbezieher Männer",
-                "Langzeitleistungsbezieher Frauen",
-                "Langzeitarbeitslos Männer",
-                "Langzeitarbeitslos Frauen",
+                "Langzeitleistungsbezieher",
+                "Langzeitarbeitslos",
                 ""
               ]
             }

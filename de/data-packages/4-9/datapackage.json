@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "iso8859-9",
+      "encoding": "mac-roman",
       "schema": {
         "fields": [
           {
@@ -21,9 +21,9 @@
             "constraints": {
               "enum": [
                 "Ingolstadt",
-                "Eichstätt",
-                "Neuburg Schrobenhausen",
-                "Pfaffenhofen an der Ilm",
+                "Stadt Eichstätt",
+                "Neuburg a.d. Donau",
+                "Pfaffenhofen a.d. Ilm",
                 ""
               ]
             },

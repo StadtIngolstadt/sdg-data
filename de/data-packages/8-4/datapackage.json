@@ -16,18 +16,16 @@
             "title": "Jahr"
           },
           {
-            "name": "Langzeitleistungsbezieher und Langzeitarbeitslos",
+            "name": "Langzeitleistungsbezieher und Langzeitarbeitslose",
             "type": "string",
             "constraints": {
               "enum": [
-                "Langzeitleistungsbezieher Männer",
-                "Langzeitleistungsbezieher Frauen",
-                "Langzeitarbeitslos Männer",
-                "Langzeitarbeitslos Frauen",
+                "Langzeitleistungsbezieher",
+                "Langzeitarbeitslos",
                 ""
               ]
             },
-            "title": "Langzeitleistungsbezieher und Langzeitarbeitslos"
+            "title": "Langzeitleistungsbezieher und Langzeitarbeitslose"
           },
           {
             "name": "Value",
