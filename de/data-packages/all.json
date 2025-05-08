@@ -2578,6 +2578,7 @@
               "enum": [
                 "Ingolstadt",
                 "Bayern",
+                "Deutschland",
                 ""
               ]
             },
@@ -3980,6 +3981,19 @@
             "name": "Year",
             "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ingolstadt",
+                "Deutschland",
+                "Bayern",
+                ""
+              ]
+            },
+            "title": "Region"
           },
           {
             "name": "Value",
