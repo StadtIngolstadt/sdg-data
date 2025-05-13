@@ -16,18 +16,17 @@
             "title": "Jahr"
           },
           {
-            "name": "Beschäftigtenquote",
+            "name": "Region",
             "type": "string",
             "constraints": {
               "enum": [
-                "Frauen",
-                "Männer",
-                "Deutsch",
-                "Nicht-Deutsch",
+                "Ingolstadt",
+                "Bayern",
+                "Deutschland",
                 ""
               ]
             },
-            "title": "Beschäftigtenquote"
+            "title": "Region"
           },
           {
             "name": "Value",

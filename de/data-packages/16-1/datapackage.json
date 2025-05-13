@@ -16,6 +16,19 @@
             "title": "Jahr"
           },
           {
+            "name": "Ehrenamtskarteninhaber und Jugendauszeichnungen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ehrenamtskarteninhaber",
+                "Jugendauszeichnungen",
+                "gesamt",
+                ""
+              ]
+            },
+            "title": "Ehrenamtskarteninhaber und Jugendauszeichnungen"
+          },
+          {
             "name": "Value",
             "type": "integer",
             "title": "Value"

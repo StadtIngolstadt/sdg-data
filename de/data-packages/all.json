@@ -909,18 +909,17 @@
             "title": "Jahr"
           },
           {
-            "name": "Beschäftigtenquote",
+            "name": "Region",
             "type": "string",
             "constraints": {
               "enum": [
-                "Frauen",
-                "Männer",
-                "Deutsch",
-                "Nicht-Deutsch",
+                "Ingolstadt",
+                "Bayern",
+                "Deutschland",
                 ""
               ]
             },
-            "title": "Beschäftigtenquote"
+            "title": "Region"
           },
           {
             "name": "Value",
@@ -2929,6 +2928,19 @@
             "name": "Year",
             "type": "integer",
             "title": "Jahr"
+          },
+          {
+            "name": "Ehrenamtskarteninhaber und Jugendauszeichnungen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ehrenamtskarteninhaber",
+                "Jugendauszeichnungen",
+                "gesamt",
+                ""
+              ]
+            },
+            "title": "Ehrenamtskarteninhaber und Jugendauszeichnungen"
           },
           {
             "name": "Value",
