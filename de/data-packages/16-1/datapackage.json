@@ -22,7 +22,6 @@
               "enum": [
                 "Ehrenamtskarteninhaber",
                 "Jugendauszeichnungen",
-                "gesamt",
                 ""
               ]
             },
