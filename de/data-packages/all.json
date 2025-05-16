@@ -3,6 +3,44 @@
   "title": "All indicators",
   "resources": [
     {
+      "path": "16-8/data.csv",
+      "name": "16-8",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Investition",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Erneuerbare Energien",
+                "Neubauten mit Nachhaltigkeitszertifizierungen",
+                "energetische Sanierung",
+                "Geldanlagen mit Nachhaltigkeitskriterien",
+                ""
+              ]
+            },
+            "title": "Investition"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "16-8"
+    },
+    {
       "path": "11-9/data.csv",
       "name": "11-9",
       "profile": "tabular-data-resource",
@@ -314,6 +352,42 @@
       "title": "1-1"
     },
     {
+      "path": "8-10/data.csv",
+      "name": "8-10",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Mitarbeitende und offene Stellen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Mitarbeitende",
+                "offene Stellen",
+                ""
+              ]
+            },
+            "title": "Mitarbeitende und offene Stellen"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "8-10"
+    },
+    {
       "path": "11-13/data.csv",
       "name": "11-13",
       "profile": "tabular-data-resource",
@@ -533,6 +607,42 @@
         ]
       },
       "title": "16-4"
+    },
+    {
+      "path": "11-20/data.csv",
+      "name": "11-20",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "mac-roman",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Nutzerzahlen Mobilitätsangebote",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Jobticket",
+                "Mitfahrapp",
+                ""
+              ]
+            },
+            "title": "Nutzerzahlen Mobilitätsangebote"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "11-20"
     },
     {
       "path": "17-4/data.csv",
@@ -1427,6 +1537,41 @@
       "title": "4-10"
     },
     {
+      "path": "12-7/data.csv",
+      "name": "12-7",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Produktkategorie",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Textilien",
+                ""
+              ]
+            },
+            "title": "Produktkategorie"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "12-7"
+    },
+    {
       "path": "16-3/data.csv",
       "name": "16-3",
       "profile": "tabular-data-resource",
@@ -1750,6 +1895,30 @@
         ]
       },
       "title": "11-3"
+    },
+    {
+      "path": "11-21/data.csv",
+      "name": "11-21",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "11-21"
     },
     {
       "path": "7-2/data.csv",
@@ -2139,6 +2308,30 @@
       "title": "3-8"
     },
     {
+      "path": "3-16/data.csv",
+      "name": "3-16",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "3-16"
+    },
+    {
       "path": "13-2/data.csv",
       "name": "13-2",
       "profile": "tabular-data-resource",
@@ -2517,6 +2710,44 @@
         ]
       },
       "title": "10-4"
+    },
+    {
+      "path": "3-17/data.csv",
+      "name": "3-17",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Langzeiterkrankte",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Beamte über 6 Wochen",
+                "Tarifbeschäftigte über 6 Wochen",
+                "Beamte über 3 Monate",
+                "Tarifbeschäftigte über 3 Monate",
+                ""
+              ]
+            },
+            "title": "Langzeiterkrankte"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "3-17"
     },
     {
       "path": "2-1/data.csv",
@@ -3820,6 +4051,66 @@
       "title": "10-5"
     },
     {
+      "path": "8-9/data.csv",
+      "name": "8-9",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "8-9"
+    },
+    {
+      "path": "9-8/data.csv",
+      "name": "9-8",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Dienstleistungen",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "gesamt",
+                "online",
+                ""
+              ]
+            },
+            "title": "Dienstleistungen"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "9-8"
+    },
+    {
       "path": "9-7/data.csv",
       "name": "9-7",
       "profile": "tabular-data-resource",
@@ -3878,6 +4169,54 @@
         ]
       },
       "title": "1-2"
+    },
+    {
+      "path": "11-22/data.csv",
+      "name": "11-22",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "11-22"
+    },
+    {
+      "path": "8-11/data.csv",
+      "name": "8-11",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Jahr"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "8-11"
     },
     {
       "path": "10-9/data.csv",

@@ -23,6 +23,7 @@ Indicator,Disaggregations,Number of disaggregations
 #11-18,Zielgruppe,1
 #11-19,Kleingartenanlagen,1
 #11-2,Barrierefreie und inklusive Mobilitätsangebot,1
+#11-20,Nutzerzahlen Mobilitätsangebote,1
 #11-3,Wohnungen,1
 #11-5,Verunglückte im Verkehr,1
 #11-6,Spiel-und Freizeitanlagen,1
@@ -47,6 +48,7 @@ Indicator,Disaggregations,Number of disaggregations
 #16-1,Ehrenamtskarteninhaber und Jugendauszeichnungen,1
 #16-2,Beteiligungsart,1
 #16-7,Wahl,1
+#16-8,Investition,1
 #17-3,Einrichtung,1
 #3-1,Pflegeangebot,1
 #3-10,Bio-Lebensmittel,1
@@ -55,6 +57,7 @@ Indicator,Disaggregations,Number of disaggregations
 #3-13,Geschlecht / Herkunft,1
 #3-14,Versorgungsgrad,1
 #3-15,Region,1
+#3-17,Langzeiterkrankte,1
 #3-2,Präventionsart,1
 #3-3,Region,1
 #3-4,Fachärzte,1
@@ -78,6 +81,7 @@ Indicator,Disaggregations,Number of disaggregations
 #7-1,Anlagenart,1
 #7-2,kWp,1
 #7-3,Ladesäule,1
+#8-10,Mitarbeitende und offene Stellen,1
 #8-2,Region,1
 #8-3,Region,1
 #8-4,Langzeitleistungsbezieher und Langzeitarbeitslose,1
@@ -88,3 +92,4 @@ Indicator,Disaggregations,Number of disaggregations
 #9-2,Breitbandversorgung,1
 #9-4,Region,1
 #9-6,Einrichtung,1
+#9-8,Dienstleistungen,1

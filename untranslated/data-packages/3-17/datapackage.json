@@ -1,0 +1,41 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Langzeiterkrankte",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Beamte über 6 Wochen",
+                "Tarifbeschäftigte über 6 Wochen",
+                "Beamte über 3 Monate",
+                "Tarifbeschäftigte über 3 Monate",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "3-17",
+  "title": "3-17"
+}
