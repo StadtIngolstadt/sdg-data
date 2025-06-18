@@ -15,7 +15,7 @@
             "type": "integer"
           },
           {
-            "name": "Hitzetage und Tropennächte ",
+            "name": "Hitzetage und Tropennächte",
             "type": "string",
             "constraints": {
               "enum": [

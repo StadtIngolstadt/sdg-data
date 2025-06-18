@@ -1,6 +1,11 @@
-Year,Value
-2019,10.09
-2020,10.35
-2021,9.48
-2022,9.78
-2023,9.63
+Year,Träger,Value
+2019,städtische Träger,10.09
+2020,städtische Träger,10.35
+2021,städtische Träger,9.48
+2021,freie Träger,10.06
+2022,städtische Träger,9.78
+2022,freie Träger,9.97
+2023,städtische Träger,9.63
+2023,freie Träger,10.06
+2024,städtische Träger,9.57
+2024,freie Träger,9.85

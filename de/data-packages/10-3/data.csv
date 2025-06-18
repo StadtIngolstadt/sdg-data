@@ -1,4 +1,4 @@
-Year,Herkunft,Value
+Year,Migrationshintergrund,Value
 2019,Mit Migrationshintergrund,45.6
 2019,Ohne Migrationshintergrund,54.4
 2020,Mit Migrationshintergrund,45.2
@@ -9,3 +9,5 @@ Year,Herkunft,Value
 2022,Ohne Migrationshintergrund,51.8
 2023,Mit Migrationshintergrund,49.5
 2023,Ohne Migrationshintergrund,50.5
+2024,Mit Migrationshintergrund,50.5
+2024,Ohne Migrationshintergrund,49.5

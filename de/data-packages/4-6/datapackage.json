@@ -16,6 +16,18 @@
             "title": "Jahr"
           },
           {
+            "name": "Träger",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "städtische Träger",
+                "freie Träger",
+                ""
+              ]
+            },
+            "title": "Träger"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"

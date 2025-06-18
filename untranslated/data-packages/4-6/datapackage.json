@@ -15,6 +15,17 @@
             "type": "integer"
           },
           {
+            "name": "Träger",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "städtische Träger",
+                "freie Träger",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }

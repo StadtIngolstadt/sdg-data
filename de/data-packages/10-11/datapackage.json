@@ -16,7 +16,7 @@
             "title": "Jahr"
           },
           {
-            "name": "Muttersprache",
+            "name": "vorrangige Sprache",
             "type": "string",
             "constraints": {
               "enum": [
@@ -25,7 +25,7 @@
                 ""
               ]
             },
-            "title": "Muttersprache"
+            "title": "vorrangige Sprache"
           },
           {
             "name": "Value",

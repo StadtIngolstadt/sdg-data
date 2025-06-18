@@ -1,11 +1,13 @@
-Year,Muttersprache,Value
-2019,deutsch,78.7
-2019,nicht-deutsch,31.3
-2020,deutsch,70.9
-2020,nicht-deutsch,29.1
-2021,deutsch,69.9
-2021,nicht-deutsch,30.1
-2022,deutsch,70.4
-2022,nicht-deutsch,29.6
-2023,deutsch,71.3
-2023,nicht-deutsch,28.7
+Year,vorrangige Sprache,Value
+2019,deutsch,70.1
+2019,nicht-deutsch,29.99
+2020,deutsch,71.46
+2020,nicht-deutsch,28.54
+2021,deutsch,71.07
+2021,nicht-deutsch,28.93
+2022,deutsch,71.6
+2022,nicht-deutsch,28.4
+2023,deutsch,72.5
+2023,nicht-deutsch,27.5
+2024,deutsch,68.46
+2024,nicht-deutsch,31.54

@@ -7,9 +7,9 @@ Indicator,Disaggregations,Number of disaggregations
 #1-7,Alleinerziehende,1
 #1-8,Region,1
 #1-9,Art des Wohngeldes,1
-#10-11,Muttersprache,1
+#10-11,vorrangige Sprache,1
 #10-2,Art der Diskriminierung,1
-#10-3,Herkunft,1
+#10-3,Migrationshintergrund,1
 #10-4,Abschlussart nach Nationalität,1
 #10-5,Herkunft,1
 #10-6,Geschlecht,1
@@ -36,7 +36,7 @@ Indicator,Disaggregations,Number of disaggregations
 #12-5,Verwertungsquoten Deutschland,1
 #12-6,Region,1
 #13-2,Sektoren,1
-#13-3,Hitzetage und Tropennächte ,1
+#13-3,Hitzetage und Tropennächte,1
 #14-2,Badesee,1
 #15-1,Region,1
 #15-2,Fläche,1
@@ -71,6 +71,7 @@ Indicator,Disaggregations,Number of disaggregations
 #4-12,Förderart,1
 #4-3,Träger,1
 #4-5,Träger,1
+#4-6,Träger,1
 #4-7,Region,1
 #4-8,Kitaplätze,1
 #4-9,Region,1
